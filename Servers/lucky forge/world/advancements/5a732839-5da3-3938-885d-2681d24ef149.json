@@ -1,0 +1,12 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mountains": "2020-04-22 21:00:03 +0100",
+      "minecraft:beach": "2020-04-22 20:56:41 +0100",
+      "minecraft:swamp": "2020-04-22 20:56:16 +0100",
+      "minecraft:plains": "2020-04-22 20:56:22 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2230
+}

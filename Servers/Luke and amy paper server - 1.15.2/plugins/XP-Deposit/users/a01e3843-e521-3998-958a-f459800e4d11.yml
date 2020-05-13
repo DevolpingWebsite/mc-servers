@@ -1,0 +1,5 @@
+Player:
+  experience: 3
+  auto-deposit:
+    toggle: false
+    deposit-number: 0

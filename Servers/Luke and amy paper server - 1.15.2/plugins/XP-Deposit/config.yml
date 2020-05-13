@@ -1,0 +1,61 @@
+################################
+#                              #
+#        XP-Deposit by         #
+#           Stipess1           #
+#                              #
+################################
+# After editing reload config with /xpd reload
+# DO NOT TOUCH config-version !
+config-version: 1.3
+# This enables & disables sound effects when player receives,sends,withdraws, etc.. XP.
+# If you don't want to have sound for particular command leave it blank -> sound-recive:
+# For more sounds check https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+sound-effects: true
+
+# sound-effects needs to be set on true in order to play sounds.
+sounds:
+  # When player receives XP.
+  sound-receive: ENTITY_EXPERIENCE_ORB_PICKUP
+
+  # When player sends XP.
+  sound-send:
+
+  # When player withdraws XP.
+  sound-withdraw:
+
+  # When player deposits XP.
+  sound-deposit:
+
+  # When player opens an account.
+  sound-acc:
+
+# Automatic updates true (enabled), false (disabled)
+auto-update: true
+
+# Sets a minimum level deposit
+# to disable it leave it at 0
+min-deposit: 0
+
+# Allows a player with specific permission
+# To deposit specific amount of XP, you can set default number down below
+# Player needs 'xpd.deposit.limit' before they can deposit XP!
+# Player needs permission 'xpd.deposit.limit.<limitRank>' to deposit more than default
+# If you want to remove XP limit, give people 'xpd.deposit.limit.unlimited'
+deposit-limit:
+  default: 120
+  vip: 240
+  mod: 360
+
+# On player death keep XP if they have the permission 'xpd.keepxp'
+# If this is set to false and players have permission, XP will be dropped.
+keep-xp: false
+
+# This sets the XP starting balance when creating an account
+balance-start: 0
+
+# When player reaches certain XP level, XPD will deposit it automatically
+# if players have permission 'xpd.deposit.auto'
+auto-deposit-limit: 5
+
+# If set to true server will use XP-Deposit as economy plugin
+economy: false

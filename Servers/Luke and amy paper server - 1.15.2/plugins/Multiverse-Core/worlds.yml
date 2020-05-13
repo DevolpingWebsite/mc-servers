@@ -1,0 +1,150 @@
+worlds:
+  world_the_end:
+    ==: MVWorld
+    hidden: 'false'
+    alias: world_the_end
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '16.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: PEACEFUL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.0
+      y: 60.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: THE_END
+    seed: '-4420670513298355808'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  world:
+    ==: MVWorld
+    hidden: 'false'
+    alias: world
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: PEACEFUL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'false'
+        spawnrate: '-1'
+        exceptions:
+        - slime
+        - phantom
+        - guardian
+        - phantoms
+        - phantoms
+        - guaridans
+        - guaridan
+        - pillager
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: -220.5
+      y: 90.0
+      z: -16.5
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-8534115530061127722'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  world_nether:
+    ==: MVWorld
+    hidden: 'false'
+    alias: world_nether
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '8.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: PEACEFUL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'false'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.0
+      y: 25.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NETHER
+    seed: '-4420670513298355808'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'

@@ -1,0 +1,84 @@
+Kits:
+  starter:
+    Items:
+      '1':
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+      '2':
+        id: DIAMOND_SHOVEL
+        amount: '1'
+        durability: '0'
+      '3':
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+      '4':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+      '5':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+      '6':
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+      '7':
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+      '8':
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+      '9':
+        potion-type: INVISIBILITY
+        potion-upgraded: 'false'
+        potion-extended: 'true'
+        id: SPLASH_POTION
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+    slot: 1
+    display_item: IRON_SWORD
+    display_name: '&6&lstarter &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+  stone:
+    Items:
+      '1':
+        firework-effects: []
+        firework-power: '0'
+        id: FIREWORK_ROCKET
+        amount: '64'
+        durability: '0'
+      '2':
+        id: STONE_AXE
+        amount: '1'
+        durability: '4'
+        unbreakable: 'false'
+      '3':
+        id: STONE_SHOVEL
+        amount: '1'
+        durability: '0'
+      '4':
+        id: STONE_PICKAXE
+        amount: '1'
+        durability: '0'
+      '5':
+        id: ELYTRA
+        amount: '1'
+        durability: '0'
+    slot: 2
+    display_item: IRON_SWORD
+    display_name: '&6&lstone &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+    Commands:
+    - kill

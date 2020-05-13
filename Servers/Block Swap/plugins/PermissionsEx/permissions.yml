@@ -1,0 +1,16 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - modifyworld.*
+  VIP:
+    permissions:
+    - permissions.*
+schema-version: 1
+users:
+  5a732839-5da3-3938-885d-2681d24ef149:
+    options:
+      name: JeremyTrump
+    group:
+    - VIP

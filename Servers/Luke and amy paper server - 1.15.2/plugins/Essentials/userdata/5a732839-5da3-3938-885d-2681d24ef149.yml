@@ -1,0 +1,22 @@
+lastAccountName: JeremyTrump
+timestamps:
+  login: 1589294267357
+  lastteleport: 1589291441139
+  logout: 1589294420778
+ipAddress: 172.23.208.1
+money: '25645.5'
+lastlocation:
+  world: world
+  x: 524.0206955333637
+  y: 70.0
+  z: -569.320919956007
+  yaw: -198.42725
+  pitch: 15.223515
+afk: false
+logoutlocation:
+  world: world
+  x: 621.6129927310633
+  y: 79.0
+  z: -551.0774564214994
+  yaw: 172.96336
+  pitch: 31.516127

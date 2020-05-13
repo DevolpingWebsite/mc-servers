@@ -1,0 +1,30 @@
+timestamps:
+  lastteleport: 1589302900874
+  login: 1589302888523
+  logout: 1589304113165
+lastlocation:
+  world: world_nether
+  x: 304.3189442050447
+  y: 72.0
+  z: -372.69999998807907
+  yaw: -123.76577
+  pitch: 23.613062
+homes:
+  home:
+    world: world_nether
+    x: 303.9005308551642
+    y: 72.0
+    z: -371.99705334279804
+    yaw: -250.94664
+    pitch: 16.317797
+afk: false
+lastAccountName: JeremyTrump
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: -278.42190621667805
+  y: 71.9375
+  z: 372.06403373319955
+  yaw: -279.6729
+  pitch: 21.76437
+money: '0'

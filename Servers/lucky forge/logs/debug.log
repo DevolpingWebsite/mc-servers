@@ -1,0 +1,987 @@
+[22Apr2020 18:26:45.381] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.1.30, --fml.mcpVersion, 20200307.202953, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge]
+[22Apr2020 18:26:45.385] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 11.0.1 by Oracle Corporation
+[22Apr2020 18:26:45.399] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[22Apr2020 18:26:45.408] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[22Apr2020 18:26:45.424] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [eventbus,object_holder_definalize,runtime_enum_extender,capability_inject_definalize,accesstransformer,runtimedistcleaner]
+[22Apr2020 18:26:45.432] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[22Apr2020 18:26:45.450] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[22Apr2020 18:26:45.479] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [fml]
+[22Apr2020 18:26:45.479] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[22Apr2020 18:26:45.480] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[22Apr2020 18:26:45.480] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[22Apr2020 18:26:45.485] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 31.1
+[22Apr2020 18:26:45.485] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 31.1 loading
+[22Apr2020 18:26:45.485] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 5.0.0-milestone.4+67+b1a340b
+[22Apr2020 18:26:45.485] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[22Apr2020 18:26:45.486] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 2.0.4+53+c61c33c
+[22Apr2020 18:26:45.486] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 2.0.0-milestone.1+57+de55078
+[22Apr2020 18:26:45.487] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[22Apr2020 18:26:45.490] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 2.0.0-milestone.1+5+5b32e68
+[22Apr2020 18:26:45.490] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 2.0.0-milestone.1+7+a2eaa64
+[22Apr2020 18:26:45.490] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[22Apr2020 18:26:45.788] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[22Apr2020 18:26:45.789] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[22Apr2020 18:26:45.790] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[22Apr2020 18:26:45.798] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[22Apr2020 18:26:45.799] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[22Apr2020 18:26:45.799] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[22Apr2020 18:26:45.800] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge
+[22Apr2020 18:26:45.801] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge
+[22Apr2020 18:26:45.801] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods
+[22Apr2020 18:26:45.801] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods
+[22Apr2020 18:26:45.802] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\config
+[22Apr2020 18:26:45.802] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\config
+[22Apr2020 18:26:45.802] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\config\fml.toml
+[22Apr2020 18:26:45.802] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[22Apr2020 18:26:45.840] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\defaultconfigs
+[22Apr2020 18:26:45.840] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[22Apr2020 18:26:45.841] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlserver as launch service
+[22Apr2020 18:26:45.853] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.15.2' MCP Version: '20200307.202953' Forge Version: '31.1.30' Forge group: 'net.minecraftforge'
+[22Apr2020 18:26:45.854] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\libraries\org\ow2\asm\asm\7.2\asm-7.2.jar
+[22Apr2020 18:26:45.854] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\libraries
+[22Apr2020 18:26:45.854] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\libraries\net\minecraftforge\forge\1.15.2-31.1.30\forge-1.15.2-31.1.30-universal.jar is present
+[22Apr2020 18:26:45.855] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\libraries\net\minecraft\server\1.15.2-20200307.202953\server-1.15.2-20200307.202953-srg.jar is present
+[22Apr2020 18:26:45.855] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\libraries\net\minecraft\server\1.15.2\server-1.15.2-extra.jar is present
+[22Apr2020 18:26:45.855] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\libraries\net\minecraftforge\forge\1.15.2-31.1.30\forge-1.15.2-31.1.30-server.jar is present
+[22Apr2020 18:26:45.859] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[22Apr2020 18:26:45.859] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\libraries\net\minecraftforge\forge\1.15.2-31.1.30\forge-1.15.2-31.1.30-universal.jar
+[22Apr2020 18:26:45.861] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/C:/Users/walto/Desktop/different%20servers/Templates/Servers/lucky%20forge/libraries/net/minecraftforge/forge/1.15.2-31.1.30/forge-1.15.2-31.1.30-universal.jar to languageloader classloader
+[22Apr2020 18:26:45.890] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[22Apr2020 18:26:45.890] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 31.1
+[22Apr2020 18:26:45.893] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[22Apr2020 18:26:45.895] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[22Apr2020 18:26:45.896] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[22Apr2020 18:26:45.896] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[22Apr2020 18:26:45.896] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[22Apr2020 18:26:45.897] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[22Apr2020 18:26:45.897] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[22Apr2020 18:26:45.918] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[22Apr2020 18:26:45.939] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[22Apr2020 18:26:45.986] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\fabric-api-0.5.1%2Bbuild.294-1.15.jar
+[22Apr2020 18:26:45.987] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file Mod File: C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\fabric-api-0.5.1%2Bbuild.294-1.15.jar is missing mods.toml file
+[22Apr2020 18:26:45.987] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: File C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\fabric-api-0.5.1%2Bbuild.294-1.15.jar has been ignored - it is invalid
+[22Apr2020 18:26:45.988] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\jei-1.15.2-6.0.0.3.jar
+[22Apr2020 18:26:46.028] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.15.2-6.0.0.3.jar with {jei} mods - versions {6.0.0.3}
+[22Apr2020 18:26:46.029] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\jei-1.15.2-6.0.0.3.jar with language javafml
+[22Apr2020 18:26:46.029] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\journeymap-1.15.2-5.7.0beta1.jar
+[22Apr2020 18:26:46.031] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file journeymap-1.15.2-5.7.0beta1.jar with {journeymap} mods - versions {1.15.2-5.7.0beta1}
+[22Apr2020 18:26:46.031] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\journeymap-1.15.2-5.7.0beta1.jar with language javafml
+[22Apr2020 18:26:46.056] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod journeymap transformer with Javascript path render-event-transformer.js
+[22Apr2020 18:26:46.056] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod render-event-transformer.js
+[22Apr2020 18:26:46.056] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\luckyblock-1.15.2-1.jar
+[22Apr2020 18:26:46.058] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file luckyblock-1.15.2-1.jar with {lucky} mods - versions {1.15.2-1}
+[22Apr2020 18:26:46.058] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\luckyblock-1.15.2-1.jar with language javafml
+[22Apr2020 18:26:46.058] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\tlskincape1.15.2-1.11.jar
+[22Apr2020 18:26:46.059] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file tlskincape1.15.2-1.11.jar with {tlskincape} mods - versions {1.6}
+[22Apr2020 18:26:46.060] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\tlskincape1.15.2-1.11.jar with language javafml
+[22Apr2020 18:26:46.060] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod transformers with Javascript path transformers.js
+[22Apr2020 18:26:46.060] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod transformers.js
+[22Apr2020 18:26:46.060] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\worldedit-forge-mc1.15.2-7.1.0.jar
+[22Apr2020 18:26:46.062] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file worldedit-forge-mc1.15.2-7.1.0.jar with {worldedit} mods - versions {7.1.0;48cc31c}
+[22Apr2020 18:26:46.062] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\worldedit-forge-mc1.15.2-7.1.0.jar with language javafml
+[22Apr2020 18:26:46.062] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\libraries\net\minecraftforge\forge\1.15.2-31.1.30\forge-1.15.2-31.1.30-universal.jar
+[22Apr2020 18:26:46.063] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.1.30-universal.jar with {forge} mods - versions {31.1.30}
+[22Apr2020 18:26:46.064] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\libraries\net\minecraftforge\forge\1.15.2-31.1.30\forge-1.15.2-31.1.30-universal.jar with language javafml
+[22Apr2020 18:26:46.064] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[22Apr2020 18:26:46.065] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[22Apr2020 18:26:46.065] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\libraries\net\minecraftforge\forge\1.15.2-31.1.30\forge-1.15.2-31.1.30-server.jar
+[22Apr2020 18:26:46.071] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.1.30-server.jar with {minecraft} mods - versions {1.15.2}
+[22Apr2020 18:26:46.071] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\libraries\net\minecraftforge\forge\1.15.2-31.1.30\forge-1.15.2-31.1.30-server.jar with language minecraft
+[22Apr2020 18:26:46.078] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 4 mandatory requirements
+[22Apr2020 18:26:46.079] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
+[22Apr2020 18:26:46.194] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[22Apr2020 18:26:46.292] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[22Apr2020 18:26:46.300] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[22Apr2020 18:26:46.462] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[22Apr2020 18:26:46.462] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[22Apr2020 18:26:46.463] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[22Apr2020 18:26:46.463] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[22Apr2020 18:26:46.464] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[22Apr2020 18:26:46.915] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[22Apr2020 18:26:46.915] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from transformers.js
+[22Apr2020 18:26:47.193] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[22Apr2020 18:26:47.194] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from render-event-transformer.js
+[22Apr2020 18:26:47.409] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[22Apr2020 18:26:47.417] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@690bc15e to Target : METHOD {Lnet/minecraft/client/renderer/WorldRenderer;} {func_215319_a} {(IIIZ)V}
+[22Apr2020 18:26:47.418] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@181e72d3 to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[22Apr2020 18:26:47.419] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6ec7bce0 to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[22Apr2020 18:26:47.419] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2d272b0d to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[22Apr2020 18:26:47.419] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3727f0ee to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[22Apr2020 18:26:47.419] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5c448433 to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[22Apr2020 18:26:47.420] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@fb713e7 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[22Apr2020 18:26:47.420] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1b5c3e5f to Target : CLASS {Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;} {} {V}
+[22Apr2020 18:26:47.420] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@13741d5a to Target : CLASS {Lnet/minecraft/client/entity/AbstractClientPlayer;} {} {V}
+[22Apr2020 18:26:47.420] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6b69761b to Target : CLASS {Lnet/minecraft/entity/player/PlayerEntity;} {} {V}
+[22Apr2020 18:26:47.420] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5c7668ba to Target : CLASS {Lnet/minecraft/entity/player/EntityPlayer;} {} {V}
+[22Apr2020 18:26:47.421] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[22Apr2020 18:26:47.434] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[22Apr2020 18:26:47.905] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/entity/player/PlayerEntity
+[22Apr2020 18:26:49.035] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[22Apr2020 18:26:49.159] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[22Apr2020 18:26:49.338] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[22Apr2020 18:26:53.665] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[22Apr2020 18:26:53.737] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[22Apr2020 18:26:53.986] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[22Apr2020 18:26:56.766] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Apr2020 18:26:56.768] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2020 18:26:56.769] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2020 18:26:56.771] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Apr2020 18:26:56.773] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2020 18:26:57.478] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[22Apr2020 18:26:57.506] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:105) [?:?]
+[22Apr2020 18:26:57.782] [Server thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4533
+[22Apr2020 18:26:58.261] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[22Apr2020 18:26:58.285] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Using 8 threads for parallel mod-loading
+[22Apr2020 18:26:58.291] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.300] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.305] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@1000d54d - got cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.305] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for mod.lucky.Lucky with classLoader cpw.mods.modlauncher.TransformingClassLoader@1000d54d & cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.318] [Server thread/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.15.2
+[22Apr2020 18:26:58.318] [Server thread/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20200307.202953
+[22Apr2020 18:26:58.318] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass mod.lucky.Lucky with cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.318] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.318] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@1000d54d - got cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.318] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@1000d54d & cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.328] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.common.ForgeMod with cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.328] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.328] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@1000d54d - got cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.328] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.sk89q.worldedit.forge.ForgeWorldEdit with classLoader cpw.mods.modlauncher.TransformingClassLoader@1000d54d & cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.370] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass com.sk89q.worldedit.forge.ForgeWorldEdit with cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.370] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.371] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@1000d54d - got cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.371] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for org.tlauncher.forge.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@1000d54d & cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.372] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass org.tlauncher.forge.ForgeMod with cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.372] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.372] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@1000d54d - got cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.372] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for journeymap.common.Journeymap with classLoader cpw.mods.modlauncher.TransformingClassLoader@1000d54d & cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.399] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass journeymap.common.Journeymap with cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.399] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.399] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@1000d54d - got cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.399] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for mezz.jei.JustEnoughItems with classLoader cpw.mods.modlauncher.TransformingClassLoader@1000d54d & cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.401] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass mezz.jei.JustEnoughItems with cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.414] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:CONSTRUCT
+[22Apr2020 18:26:58.428] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance tlskincape of type org.tlauncher.forge.ForgeMod
+[22Apr2020 18:26:58.428] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance lucky of type mod.lucky.Lucky
+[22Apr2020 18:26:58.428] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance forge of type net.minecraftforge.common.ForgeMod
+[22Apr2020 18:26:58.429] [modloading-worker-5/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 31.1 from cpw.mods.modlauncher.TransformingClassLoader@1000d54d
+[22Apr2020 18:26:58.429] [modloading-worker-5/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 31.1.30
+[22Apr2020 18:26:58.429] [modloading-worker-5/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 31.1
+[22Apr2020 18:26:58.429] [modloading-worker-5/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[22Apr2020 18:26:58.428] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance tlskincape of type org.tlauncher.forge.ForgeMod
+[22Apr2020 18:26:58.429] [modloading-worker-5/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.30, for MC 1.15.2 with MCP 20200307.202953
+[22Apr2020 18:26:58.430] [modloading-worker-5/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.30 Initialized
+[22Apr2020 18:26:58.430] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for tlskincape
+[22Apr2020 18:26:58.448] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance worldedit of type com.sk89q.worldedit.forge.ForgeWorldEdit
+[22Apr2020 18:26:58.448] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance journeymap of type journeymap.common.Journeymap
+[22Apr2020 18:26:58.453] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance jei of type mezz.jei.JustEnoughItems
+[22Apr2020 18:26:58.462] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance jei of type mezz.jei.JustEnoughItems
+[22Apr2020 18:26:58.463] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for jei
+[22Apr2020 18:26:58.491] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for tlskincape
+[22Apr2020 18:26:58.492] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[22Apr2020 18:26:58.493] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for tlskincape
+[22Apr2020 18:26:58.503] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for jei
+[22Apr2020 18:26:58.592] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance worldedit of type com.sk89q.worldedit.forge.ForgeWorldEdit
+[22Apr2020 18:26:58.592] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for worldedit
+[22Apr2020 18:26:58.593] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for worldedit
+[22Apr2020 18:26:58.593] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for worldedit
+[22Apr2020 18:26:58.603] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file journeymap-common.toml for journeymap tracking
+[22Apr2020 18:26:58.604] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance journeymap of type journeymap.common.Journeymap
+[22Apr2020 18:26:58.604] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for journeymap
+[22Apr2020 18:26:58.604] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for journeymap
+[22Apr2020 18:26:58.610] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing journeymap.server.config.ForgeConfig to MOD
+[22Apr2020 18:26:58.610] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing journeymap.common.Journeymap to FORGE
+[22Apr2020 18:26:58.611] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for journeymap
+[22Apr2020 18:26:58.629] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[22Apr2020 18:26:58.675] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[22Apr2020 18:26:58.703] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance forge of type net.minecraftforge.common.ForgeMod
+[22Apr2020 18:26:58.703] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for forge
+[22Apr2020 18:26:58.704] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[22Apr2020 18:26:58.704] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for forge
+[22Apr2020 18:26:58.731] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance lucky of type mod.lucky.Lucky
+[22Apr2020 18:26:58.731] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for lucky
+[22Apr2020 18:26:58.732] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for lucky
+[22Apr2020 18:26:58.732] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing mod.lucky.world.LuckyTickHandler to MOD
+[22Apr2020 18:26:58.732] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing mod.lucky.init.SetupCommon to MOD
+[22Apr2020 18:26:58.779] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for lucky
+[22Apr2020 18:26:58.781] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:CREATE_REGISTRIES
+[22Apr2020 18:26:58.781] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.NewRegistry
+[22Apr2020 18:26:58.782] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.NewRegistry
+[22Apr2020 18:26:58.782] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.NewRegistry
+[22Apr2020 18:26:58.782] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.NewRegistry
+[22Apr2020 18:26:58.782] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.NewRegistry
+[22Apr2020 18:26:58.782] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.NewRegistry
+[22Apr2020 18:26:58.782] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.NewRegistry
+[22Apr2020 18:26:58.782] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.NewRegistry
+[22Apr2020 18:26:58.782] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.NewRegistry
+[22Apr2020 18:26:58.782] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.NewRegistry
+[22Apr2020 18:26:58.783] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.NewRegistry
+[22Apr2020 18:26:58.783] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.NewRegistry
+[22Apr2020 18:26:58.862] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.862] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:block>
+[22Apr2020 18:26:58.862] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:block>
+[22Apr2020 18:26:58.862] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block>
+[22Apr2020 18:26:58.862] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block>
+[22Apr2020 18:26:58.862] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:block>
+[22Apr2020 18:26:58.863] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:block>
+[22Apr2020 18:26:58.863] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:block>
+[22Apr2020 18:26:58.863] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:block>
+[22Apr2020 18:26:58.863] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:block>
+[22Apr2020 18:26:58.863] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:block>
+[22Apr2020 18:26:58.863] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:block>
+[22Apr2020 18:26:58.863] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:block>
+[22Apr2020 18:26:58.866] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.867] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:item>
+[22Apr2020 18:26:58.869] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:item>
+[22Apr2020 18:26:58.869] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:item>
+[22Apr2020 18:26:58.869] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:item>
+[22Apr2020 18:26:58.870] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:item>
+[22Apr2020 18:26:58.870] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:item>
+[22Apr2020 18:26:58.870] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:item>
+[22Apr2020 18:26:58.870] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:item>
+[22Apr2020 18:26:58.870] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:item>
+[22Apr2020 18:26:58.870] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:item>
+[22Apr2020 18:26:58.870] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:item>
+[22Apr2020 18:26:58.870] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:item>
+[22Apr2020 18:26:58.871] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.872] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<forge:loot_modifier_serializers>
+[22Apr2020 18:26:58.872] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<forge:loot_modifier_serializers>
+[22Apr2020 18:26:58.872] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[22Apr2020 18:26:58.872] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[22Apr2020 18:26:58.872] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<forge:loot_modifier_serializers>
+[22Apr2020 18:26:58.872] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<forge:loot_modifier_serializers>
+[22Apr2020 18:26:58.872] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<forge:loot_modifier_serializers>
+[22Apr2020 18:26:58.872] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<forge:loot_modifier_serializers>
+[22Apr2020 18:26:58.872] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<forge:loot_modifier_serializers>
+[22Apr2020 18:26:58.872] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<forge:loot_modifier_serializers>
+[22Apr2020 18:26:58.872] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<forge:loot_modifier_serializers>
+[22Apr2020 18:26:58.872] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<forge:loot_modifier_serializers>
+[22Apr2020 18:26:58.873] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.873] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<forge:moddimensions>
+[22Apr2020 18:26:58.873] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<forge:moddimensions>
+[22Apr2020 18:26:58.873] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:moddimensions>
+[22Apr2020 18:26:58.873] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:moddimensions>
+[22Apr2020 18:26:58.873] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<forge:moddimensions>
+[22Apr2020 18:26:58.873] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<forge:moddimensions>
+[22Apr2020 18:26:58.873] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<forge:moddimensions>
+[22Apr2020 18:26:58.873] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<forge:moddimensions>
+[22Apr2020 18:26:58.873] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<forge:moddimensions>
+[22Apr2020 18:26:58.873] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<forge:moddimensions>
+[22Apr2020 18:26:58.873] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<forge:moddimensions>
+[22Apr2020 18:26:58.874] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<forge:moddimensions>
+[22Apr2020 18:26:58.874] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.874] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:activities>
+[22Apr2020 18:26:58.874] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:activities>
+[22Apr2020 18:26:58.874] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:activities>
+[22Apr2020 18:26:58.874] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:activities>
+[22Apr2020 18:26:58.875] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:activities>
+[22Apr2020 18:26:58.875] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:activities>
+[22Apr2020 18:26:58.875] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:activities>
+[22Apr2020 18:26:58.875] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:activities>
+[22Apr2020 18:26:58.875] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:activities>
+[22Apr2020 18:26:58.875] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:activities>
+[22Apr2020 18:26:58.875] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:activities>
+[22Apr2020 18:26:58.875] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:activities>
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:biome>
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:biome>
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome>
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome>
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:biome>
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:biome>
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:biome>
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:biome>
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:biome>
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:biome>
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:biome>
+[22Apr2020 18:26:58.876] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:biome>
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:biome_source_type>
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:biome_source_type>
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:biome_source_type>
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:biome_source_type>
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:biome_source_type>
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:biome_source_type>
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:biome_source_type>
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:biome_source_type>
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:biome_source_type>
+[22Apr2020 18:26:58.877] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:biome_source_type>
+[22Apr2020 18:26:58.878] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.878] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:block_entity_type>
+[22Apr2020 18:26:58.880] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:block_entity_type>
+[22Apr2020 18:26:58.880] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[22Apr2020 18:26:58.880] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[22Apr2020 18:26:58.880] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:block_entity_type>
+[22Apr2020 18:26:58.880] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:block_entity_type>
+[22Apr2020 18:26:58.880] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:block_entity_type>
+[22Apr2020 18:26:58.880] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:block_entity_type>
+[22Apr2020 18:26:58.880] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:block_entity_type>
+[22Apr2020 18:26:58.880] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:block_entity_type>
+[22Apr2020 18:26:58.880] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:block_entity_type>
+[22Apr2020 18:26:58.881] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:block_entity_type>
+[22Apr2020 18:26:58.881] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.881] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:carver>
+[22Apr2020 18:26:58.881] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:carver>
+[22Apr2020 18:26:58.881] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:carver>
+[22Apr2020 18:26:58.882] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:carver>
+[22Apr2020 18:26:58.882] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:carver>
+[22Apr2020 18:26:58.882] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:carver>
+[22Apr2020 18:26:58.882] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:carver>
+[22Apr2020 18:26:58.882] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:carver>
+[22Apr2020 18:26:58.882] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:carver>
+[22Apr2020 18:26:58.882] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:carver>
+[22Apr2020 18:26:58.882] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:carver>
+[22Apr2020 18:26:58.882] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:carver>
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:chunk_generator_type>
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:chunk_generator_type>
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:chunk_generator_type>
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:chunk_generator_type>
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:chunk_generator_type>
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:chunk_generator_type>
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:chunk_generator_type>
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:chunk_generator_type>
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:chunk_generator_type>
+[22Apr2020 18:26:58.883] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:chunk_generator_type>
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:chunk_status>
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:chunk_status>
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:chunk_status>
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:chunk_status>
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:chunk_status>
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:chunk_status>
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:chunk_status>
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:chunk_status>
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:chunk_status>
+[22Apr2020 18:26:58.884] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:chunk_status>
+[22Apr2020 18:26:58.885] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.885] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:dataserializers>
+[22Apr2020 18:26:58.885] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:dataserializers>
+[22Apr2020 18:26:58.885] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
+[22Apr2020 18:26:58.885] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
+[22Apr2020 18:26:58.885] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:dataserializers>
+[22Apr2020 18:26:58.885] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:dataserializers>
+[22Apr2020 18:26:58.885] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:dataserializers>
+[22Apr2020 18:26:58.885] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:dataserializers>
+[22Apr2020 18:26:58.885] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:dataserializers>
+[22Apr2020 18:26:58.885] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:dataserializers>
+[22Apr2020 18:26:58.886] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:dataserializers>
+[22Apr2020 18:26:58.886] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:dataserializers>
+[22Apr2020 18:26:58.886] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.886] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:decorator>
+[22Apr2020 18:26:58.886] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:decorator>
+[22Apr2020 18:26:58.886] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:decorator>
+[22Apr2020 18:26:58.886] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:decorator>
+[22Apr2020 18:26:58.887] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:decorator>
+[22Apr2020 18:26:58.887] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:decorator>
+[22Apr2020 18:26:58.887] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:decorator>
+[22Apr2020 18:26:58.887] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:decorator>
+[22Apr2020 18:26:58.887] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:decorator>
+[22Apr2020 18:26:58.887] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:decorator>
+[22Apr2020 18:26:58.887] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:decorator>
+[22Apr2020 18:26:58.887] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:decorator>
+[22Apr2020 18:26:58.887] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.887] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:enchantment>
+[22Apr2020 18:26:58.887] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:enchantment>
+[22Apr2020 18:26:58.888] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[22Apr2020 18:26:58.888] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[22Apr2020 18:26:58.888] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:enchantment>
+[22Apr2020 18:26:58.888] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:enchantment>
+[22Apr2020 18:26:58.888] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:enchantment>
+[22Apr2020 18:26:58.888] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:enchantment>
+[22Apr2020 18:26:58.888] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:enchantment>
+[22Apr2020 18:26:58.888] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:enchantment>
+[22Apr2020 18:26:58.888] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:enchantment>
+[22Apr2020 18:26:58.888] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:enchantment>
+[22Apr2020 18:26:58.889] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.889] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:entity_type>
+[22Apr2020 18:26:58.890] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lucky_potion
+[22Apr2020 18:26:58.892] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lucky_projectile
+[22Apr2020 18:26:58.893] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:entity_type>
+[22Apr2020 18:26:58.893] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[22Apr2020 18:26:58.893] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[22Apr2020 18:26:58.893] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:entity_type>
+[22Apr2020 18:26:58.893] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:entity_type>
+[22Apr2020 18:26:58.893] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:entity_type>
+[22Apr2020 18:26:58.893] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:entity_type>
+[22Apr2020 18:26:58.893] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:entity_type>
+[22Apr2020 18:26:58.893] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:entity_type>
+[22Apr2020 18:26:58.893] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:entity_type>
+[22Apr2020 18:26:58.893] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:entity_type>
+[22Apr2020 18:26:58.894] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.894] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:feature>
+[22Apr2020 18:26:58.894] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:feature>
+[22Apr2020 18:26:58.894] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:feature>
+[22Apr2020 18:26:58.894] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:feature>
+[22Apr2020 18:26:58.894] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:feature>
+[22Apr2020 18:26:58.894] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:feature>
+[22Apr2020 18:26:58.894] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:feature>
+[22Apr2020 18:26:58.895] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:feature>
+[22Apr2020 18:26:58.895] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:feature>
+[22Apr2020 18:26:58.895] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:feature>
+[22Apr2020 18:26:58.895] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:feature>
+[22Apr2020 18:26:58.895] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:feature>
+[22Apr2020 18:26:58.895] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.895] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:fluid>
+[22Apr2020 18:26:58.895] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:fluid>
+[22Apr2020 18:26:58.895] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[22Apr2020 18:26:58.895] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[22Apr2020 18:26:58.896] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:fluid>
+[22Apr2020 18:26:58.896] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:fluid>
+[22Apr2020 18:26:58.896] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:fluid>
+[22Apr2020 18:26:58.896] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:fluid>
+[22Apr2020 18:26:58.896] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:fluid>
+[22Apr2020 18:26:58.896] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:fluid>
+[22Apr2020 18:26:58.896] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:fluid>
+[22Apr2020 18:26:58.896] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:fluid>
+[22Apr2020 18:26:58.896] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.896] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:memory_module_type>
+[22Apr2020 18:26:58.897] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:memory_module_type>
+[22Apr2020 18:26:58.897] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[22Apr2020 18:26:58.897] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[22Apr2020 18:26:58.897] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:memory_module_type>
+[22Apr2020 18:26:58.897] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:memory_module_type>
+[22Apr2020 18:26:58.897] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:memory_module_type>
+[22Apr2020 18:26:58.897] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:memory_module_type>
+[22Apr2020 18:26:58.897] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:memory_module_type>
+[22Apr2020 18:26:58.897] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:memory_module_type>
+[22Apr2020 18:26:58.897] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:memory_module_type>
+[22Apr2020 18:26:58.897] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:memory_module_type>
+[22Apr2020 18:26:58.897] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.898] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:menu>
+[22Apr2020 18:26:58.898] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:menu>
+[22Apr2020 18:26:58.898] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:menu>
+[22Apr2020 18:26:58.898] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:menu>
+[22Apr2020 18:26:58.898] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:menu>
+[22Apr2020 18:26:58.898] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:menu>
+[22Apr2020 18:26:58.898] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:menu>
+[22Apr2020 18:26:58.898] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:menu>
+[22Apr2020 18:26:58.898] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:menu>
+[22Apr2020 18:26:58.898] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:menu>
+[22Apr2020 18:26:58.898] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:menu>
+[22Apr2020 18:26:58.898] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:menu>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:mob_effect>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:mob_effect>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:mob_effect>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:mob_effect>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:mob_effect>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:mob_effect>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:mob_effect>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:mob_effect>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:mob_effect>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:mob_effect>
+[22Apr2020 18:26:58.899] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.900] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:motive>
+[22Apr2020 18:26:58.900] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:motive>
+[22Apr2020 18:26:58.900] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:motive>
+[22Apr2020 18:26:58.900] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:motive>
+[22Apr2020 18:26:58.900] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:motive>
+[22Apr2020 18:26:58.900] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:motive>
+[22Apr2020 18:26:58.900] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:motive>
+[22Apr2020 18:26:58.900] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:motive>
+[22Apr2020 18:26:58.900] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:motive>
+[22Apr2020 18:26:58.900] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:motive>
+[22Apr2020 18:26:58.900] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:motive>
+[22Apr2020 18:26:58.900] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:motive>
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:particle_type>
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:particle_type>
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:particle_type>
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:particle_type>
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:particle_type>
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:particle_type>
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:particle_type>
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:particle_type>
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:particle_type>
+[22Apr2020 18:26:58.901] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:particle_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:point_of_interest_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:point_of_interest_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:point_of_interest_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:point_of_interest_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:point_of_interest_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:point_of_interest_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:point_of_interest_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:point_of_interest_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:point_of_interest_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:point_of_interest_type>
+[22Apr2020 18:26:58.902] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:potion>
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:potion>
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:potion>
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:potion>
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:potion>
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:potion>
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:potion>
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:potion>
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:potion>
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:potion>
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:potion>
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:potion>
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:58.903] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:recipe_serializer>
+[22Apr2020 18:26:58.907] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:recipe_serializer>
+[22Apr2020 18:26:58.907] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[22Apr2020 18:26:59.038] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[22Apr2020 18:26:59.038] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:recipe_serializer>
+[22Apr2020 18:26:59.038] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:recipe_serializer>
+[22Apr2020 18:26:59.038] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:recipe_serializer>
+[22Apr2020 18:26:59.039] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:recipe_serializer>
+[22Apr2020 18:26:59.039] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:recipe_serializer>
+[22Apr2020 18:26:59.039] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:recipe_serializer>
+[22Apr2020 18:26:59.039] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:recipe_serializer>
+[22Apr2020 18:26:59.039] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:recipe_serializer>
+[22Apr2020 18:26:59.039] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:59.039] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:schedule>
+[22Apr2020 18:26:59.039] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:schedule>
+[22Apr2020 18:26:59.039] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:schedule>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:schedule>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:schedule>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:schedule>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:schedule>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:schedule>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:schedule>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:schedule>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:sensor_type>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:sensor_type>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[22Apr2020 18:26:59.040] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:sensor_type>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:sensor_type>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:sensor_type>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:sensor_type>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:sensor_type>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:sensor_type>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:sensor_type>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:sensor_type>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:sound_event>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:sound_event>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:sound_event>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:sound_event>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:sound_event>
+[22Apr2020 18:26:59.041] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:sound_event>
+[22Apr2020 18:26:59.042] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:sound_event>
+[22Apr2020 18:26:59.042] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:sound_event>
+[22Apr2020 18:26:59.042] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:sound_event>
+[22Apr2020 18:26:59.042] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:sound_event>
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:stat_type>
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:stat_type>
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:stat_type>
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:stat_type>
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:stat_type>
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:stat_type>
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:stat_type>
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:stat_type>
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:stat_type>
+[22Apr2020 18:26:59.043] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:stat_type>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:surface_builder>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:surface_builder>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:surface_builder>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:surface_builder>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:surface_builder>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:surface_builder>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:surface_builder>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:surface_builder>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:surface_builder>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:surface_builder>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : RegistryEvent.Register<minecraft:villager_profession>
+[22Apr2020 18:26:59.044] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : RegistryEvent.Register<minecraft:villager_profession>
+[22Apr2020 18:26:59.045] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[22Apr2020 18:26:59.045] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[22Apr2020 18:26:59.045] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : RegistryEvent.Register<minecraft:villager_profession>
+[22Apr2020 18:26:59.045] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : RegistryEvent.Register<minecraft:villager_profession>
+[22Apr2020 18:26:59.045] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : RegistryEvent.Register<minecraft:villager_profession>
+[22Apr2020 18:26:59.045] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : RegistryEvent.Register<minecraft:villager_profession>
+[22Apr2020 18:26:59.045] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : RegistryEvent.Register<minecraft:villager_profession>
+[22Apr2020 18:26:59.045] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : RegistryEvent.Register<minecraft:villager_profession>
+[22Apr2020 18:26:59.045] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:villager_profession>
+[22Apr2020 18:26:59.045] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:villager_profession>
+[22Apr2020 18:26:59.046] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[22Apr2020 18:26:59.047] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading config file type COMMON at journeymap-common.toml for journeymap
+[22Apr2020 18:26:59.048] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\config\journeymap-common.toml
+[22Apr2020 18:26:59.114] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\config\journeymap-common.toml
+[22Apr2020 18:26:59.119] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\config\journeymap-common.toml for changes
+[22Apr2020 18:26:59.120] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\config\journeymap-common.toml is not correct. Correcting
+[22Apr2020 18:26:59.121] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to SimpleCommentedConfig:{}
+[22Apr2020 18:26:59.122] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to true
+[22Apr2020 18:26:59.122] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to [mysticdrew, 12341234132]
+[22Apr2020 18:26:59.124] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[22Apr2020 18:26:59.126] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMMON_SETUP
+[22Apr2020 18:26:59.127] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLCommonSetupEvent
+[22Apr2020 18:26:59.127] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : FMLCommonSetupEvent
+[22Apr2020 18:26:59.127] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : FMLCommonSetupEvent
+[22Apr2020 18:26:59.127] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : FMLCommonSetupEvent
+[22Apr2020 18:26:59.127] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : FMLCommonSetupEvent
+[22Apr2020 18:26:59.127] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : FMLCommonSetupEvent
+[22Apr2020 18:26:59.127] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : FMLCommonSetupEvent
+[22Apr2020 18:26:59.226] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : FMLCommonSetupEvent
+[22Apr2020 18:26:59.273] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.1.0;48cc31c) is loaded
+[22Apr2020 18:26:59.273] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : FMLCommonSetupEvent
+[22Apr2020 18:26:59.329] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : FMLCommonSetupEvent
+[22Apr2020 18:26:59.429] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLCommonSetupEvent
+[22Apr2020 18:26:59.432] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22Apr2020 18:27:00.250] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.2.6",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2185",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2386",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2847",
+    "1.12.2-recommended": "14.23.5.2768",
+    "1.13.2-latest": "25.0.219",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.4",
+    "1.14.4-recommended": "28.2.0",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.1.47",
+    "1.15.2-recommended": "31.1.0",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.737",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-latest-1.7.10": "10.13.2.1343",
+    "1.7.10-recommended": "10.13.4.1558",
+    "1.7.2-latest": "10.12.2.1147",
+    "1.7.2-recommended": "10.12.2.1121",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.1722",
+    "1.9-latest": "12.16.0.1942",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2051",
+    "1.9.4-recommended": "12.17.0.1976",
+    "latest-1.7.10": "10.13.2.1343"
+  }
+}
+[22Apr2020 18:27:00.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.30 Target: 31.1.47
+[22Apr2020 18:27:00.435] [modloading-worker-3/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[22Apr2020 18:27:00.769] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : FMLCommonSetupEvent
+[22Apr2020 18:27:00.781] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 1 jobs
+[22Apr2020 18:27:00.800] [Server thread/INFO] [journeymap/]: Initializing Packet Registry
+[22Apr2020 18:27:00.829] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.044
+[22Apr2020 18:27:00.830] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:SIDED_SETUP
+[22Apr2020 18:27:00.830] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : FMLDedicatedServerSetupEvent
+[22Apr2020 18:27:00.830] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : FMLDedicatedServerSetupEvent
+[22Apr2020 18:27:00.831] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : FMLDedicatedServerSetupEvent
+[22Apr2020 18:27:00.830] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLDedicatedServerSetupEvent
+[22Apr2020 18:27:00.831] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLDedicatedServerSetupEvent
+[22Apr2020 18:27:00.831] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : FMLDedicatedServerSetupEvent
+[22Apr2020 18:27:00.831] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : FMLDedicatedServerSetupEvent
+[22Apr2020 18:27:00.831] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : FMLDedicatedServerSetupEvent
+[22Apr2020 18:27:00.831] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : FMLDedicatedServerSetupEvent
+[22Apr2020 18:27:00.831] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : FMLDedicatedServerSetupEvent
+[22Apr2020 18:27:00.831] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : FMLDedicatedServerSetupEvent
+[22Apr2020 18:27:00.831] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : FMLDedicatedServerSetupEvent
+[22Apr2020 18:27:00.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Apr2020 18:27:00.893] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Apr2020 18:27:00.893] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[22Apr2020 18:27:01.030] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Apr2020 18:27:01.054] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[22Apr2020 18:27:01.620] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22Apr2020 18:27:01.620] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[22Apr2020 18:27:01.621] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22Apr2020 18:27:01.621] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[22Apr2020 18:27:01.639] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:ENQUEUE_IMC
+[22Apr2020 18:27:01.640] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : InterModEnqueueEvent
+[22Apr2020 18:27:01.640] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : InterModEnqueueEvent
+[22Apr2020 18:27:01.640] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : InterModEnqueueEvent
+[22Apr2020 18:27:01.640] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModEnqueueEvent
+[22Apr2020 18:27:01.640] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : InterModEnqueueEvent
+[22Apr2020 18:27:01.640] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : InterModEnqueueEvent
+[22Apr2020 18:27:01.640] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : InterModEnqueueEvent
+[22Apr2020 18:27:01.640] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : InterModEnqueueEvent
+[22Apr2020 18:27:01.640] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : InterModEnqueueEvent
+[22Apr2020 18:27:01.640] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : InterModEnqueueEvent
+[22Apr2020 18:27:01.640] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModEnqueueEvent
+[22Apr2020 18:27:01.640] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : InterModEnqueueEvent
+[22Apr2020 18:27:01.641] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:PROCESS_IMC
+[22Apr2020 18:27:01.641] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : InterModProcessEvent
+[22Apr2020 18:27:01.641] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModProcessEvent
+[22Apr2020 18:27:01.641] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : InterModProcessEvent
+[22Apr2020 18:27:01.641] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : InterModProcessEvent
+[22Apr2020 18:27:01.641] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : InterModProcessEvent
+[22Apr2020 18:27:01.641] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : InterModProcessEvent
+[22Apr2020 18:27:01.641] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : InterModProcessEvent
+[22Apr2020 18:27:01.641] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : InterModProcessEvent
+[22Apr2020 18:27:01.641] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModProcessEvent
+[22Apr2020 18:27:01.641] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : InterModProcessEvent
+[22Apr2020 18:27:01.641] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : InterModProcessEvent
+[22Apr2020 18:27:01.641] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : InterModProcessEvent
+[22Apr2020 18:27:01.642] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMPLETE
+[22Apr2020 18:27:01.649] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid worldedit : FMLLoadCompleteEvent
+[22Apr2020 18:27:01.649] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid lucky : FMLLoadCompleteEvent
+[22Apr2020 18:27:01.649] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLLoadCompleteEvent
+[22Apr2020 18:27:01.649] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid journeymap : FMLLoadCompleteEvent
+[22Apr2020 18:27:01.649] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid tlskincape : FMLLoadCompleteEvent
+[22Apr2020 18:27:01.649] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : FMLLoadCompleteEvent
+[22Apr2020 18:27:01.649] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid lucky : FMLLoadCompleteEvent
+[22Apr2020 18:27:01.649] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : FMLLoadCompleteEvent
+[22Apr2020 18:27:01.649] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid worldedit : FMLLoadCompleteEvent
+[22Apr2020 18:27:01.649] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid journeymap : FMLLoadCompleteEvent
+[22Apr2020 18:27:01.649] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid tlskincape : FMLLoadCompleteEvent
+[22Apr2020 18:27:01.649] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLLoadCompleteEvent
+[22Apr2020 18:27:01.668] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[22Apr2020 18:27:02.101] [Server thread/WARN] [net.minecraftforge.fml.server.ServerModLoader/LOADING]: Mods loaded with 1 warnings
+[22Apr2020 18:27:02.102] [Server thread/WARN] [net.minecraftforge.fml.server.ServerModLoader/LOADING]: File fabric-api-0.5.1%2Bbuild.294-1.15.jar is a Fabric mod and cannot be loaded
+[22Apr2020 18:27:02.130] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\world\serverconfig
+[22Apr2020 18:27:02.130] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[22Apr2020 18:27:02.131] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading config file type SERVER at forge-server.toml for forge
+[22Apr2020 18:27:02.131] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\world\serverconfig\forge-server.toml
+[22Apr2020 18:27:02.132] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\world\serverconfig\forge-server.toml
+[22Apr2020 18:27:02.135] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\world\serverconfig\forge-server.toml for changes
+[22Apr2020 18:27:02.136] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[22Apr2020 18:27:02.139] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[22Apr2020 18:27:02.139] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[22Apr2020 18:27:02.202] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Apr2020 18:27:02.232] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Reading Dimension Entries.
+[22Apr2020 18:27:02.233] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:dimension_type: Clearing registry
+[22Apr2020 18:27:02.233] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 1 Name: minecraft:overworld Value: DimensionType{null}
+[22Apr2020 18:27:02.234] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 2 Name: minecraft:the_end Value: DimensionType{null}
+[22Apr2020 18:27:02.234] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 0 Name: minecraft:the_nether Value: DimensionType{null}
+[22Apr2020 18:27:02.317] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[22Apr2020 18:27:02.535] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:tlskincape for mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\tlskincape1.15.2-1.11.jar
+[22Apr2020 18:27:02.535] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:jei for mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\jei-1.15.2-6.0.0.3.jar
+[22Apr2020 18:27:02.535] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\libraries\net\minecraftforge\forge\1.15.2-31.1.30\forge-1.15.2-31.1.30-universal.jar
+[22Apr2020 18:27:02.536] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:lucky for mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\luckyblock-1.15.2-1.jar
+[22Apr2020 18:27:02.536] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:worldedit for mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\worldedit-forge-mc1.15.2-7.1.0.jar
+[22Apr2020 18:27:02.536] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:journeymap for mod file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\journeymap-1.15.2-5.7.0beta1.jar
+[22Apr2020 18:27:02.540] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.1.30-universal.jar, jei-1.15.2-6.0.0.3.jar, journeymap-1.15.2-5.7.0beta1.jar, luckyblock-1.15.2-1.jar, tlskincape1.15.2-1.11.jar, worldedit-forge-mc1.15.2-7.1.0.jar
+[22Apr2020 18:27:03.268] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[22Apr2020 18:27:03.844] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[22Apr2020 18:27:04.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Apr2020 18:27:05.432] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Apr2020 18:27:05.432] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Apr2020 18:27:05.432] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Apr2020 18:27:05.728] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 25%
+[22Apr2020 18:27:07.600] [Server-Worker-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Apr2020 18:27:07.601] [Server-Worker-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Apr2020 18:27:07.606] [Server-Worker-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Apr2020 18:27:07.696] [Server-Worker-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Apr2020 18:27:08.201] [Server-Worker-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Apr2020 18:27:08.699] [Server-Worker-7/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Apr2020 18:27:09.197] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
+[22Apr2020 18:27:09.457] [Server-Worker-6/INFO] [STDOUT/]: [mod.lucky.drop.func.DropProcessor:processRandomDrop:136]: Chosen Lucky Block Drop: type=block,ID=lucky:lucky_block@chance=600
+[22Apr2020 18:27:09.699] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[22Apr2020 18:27:10.197] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[22Apr2020 18:27:10.529] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 6333 ms
+[22Apr2020 18:27:10.530] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.412s)! For help, type "help"
+[22Apr2020 18:27:10.536] [Server thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 156
+[22Apr2020 18:27:11.506] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@286aa495]
+[22Apr2020 18:27:11.983] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[22Apr2020 18:27:12.138] [Server thread/INFO] [journeymap/]: global (FirstLoaded) Setting config file to version "5.7.0dev": journeymap.server.global.config
+[22Apr2020 18:27:12.139] [Server thread/INFO] [journeymap/]: global (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.global.config
+[22Apr2020 18:27:12.168] [Server thread/INFO] [journeymap/]: default (FirstLoaded) Setting config file to version "5.7.0dev": journeymap.server.default.config
+[22Apr2020 18:27:12.168] [Server thread/INFO] [journeymap/]: default (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.default.config
+[22Apr2020 18:27:12.173] [Server thread/INFO] [journeymap/]: dim-1 (Initialized) Setting config file to version "5.7.0dev": journeymap.server.dim-1.config
+[22Apr2020 18:27:12.174] [Server thread/INFO] [journeymap/]: dim-1 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim-1.config
+[22Apr2020 18:27:12.182] [Server thread/INFO] [journeymap/]: dim0 (Initialized) Setting config file to version "5.7.0dev": journeymap.server.dim0.config
+[22Apr2020 18:27:12.183] [Server thread/INFO] [journeymap/]: dim0 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim0.config
+[22Apr2020 18:27:12.187] [Server thread/INFO] [journeymap/]: dim1 (Initialized) Setting config file to version "5.7.0dev": journeymap.server.dim1.config
+[22Apr2020 18:27:12.188] [Server thread/INFO] [journeymap/]: dim1 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim1.config
+[22Apr2020 18:27:12.207] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Queueing dimension -1 to unload
+[22Apr2020 18:27:12.294] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Queueing dimension 1 to unload
+[22Apr2020 18:27:12.303] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Unloading dimension -1
+[22Apr2020 18:27:12.306] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Apr2020 18:27:12.308] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Unloading dimension 1
+[22Apr2020 18:27:12.308] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Apr2020 18:27:56.495] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting new modded network connection. Found 21 messages to dispatch.
+[22Apr2020 18:27:56.535] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.fml.network.FMLHandshakeMessages$S2CModList' to 'fml:handshake' sequence 0
+[22Apr2020 18:27:56.584] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 1
+[22Apr2020 18:27:56.594] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[22Apr2020 18:27:56.597] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 0 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SModListReply
+[22Apr2020 18:27:56.597] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, forge, worldedit, tlskincape, journeymap, jei]
+[22Apr2020 18:27:56.598] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'worldedit:cui' : Version test of '1' from client : ACCEPTED
+[22Apr2020 18:27:56.598] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from client : ACCEPTED
+[22Apr2020 18:27:56.598] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from client : ACCEPTED
+[22Apr2020 18:27:56.598] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'jei:channel' : Version test of '1.0.0' from client : ACCEPTED
+[22Apr2020 18:27:56.598] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'worldedit:internal' : Version test of '1' from client : ACCEPTED
+[22Apr2020 18:27:56.598] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from client : ACCEPTED
+[22Apr2020 18:27:56.598] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from client : ACCEPTED
+[22Apr2020 18:27:56.598] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from client : ACCEPTED
+[22Apr2020 18:27:56.598] [Netty Server IO #3/INFO] [journeymap/]: Dev Mode?
+[22Apr2020 18:27:56.599] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'journeymap:_channel' : Version test of '1' from client : ACCEPTED
+[22Apr2020 18:27:56.599] [Netty Server IO #3/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'lucky:main_channel' : Version test of 'ABSENT ?' from client : REJECTED
+[22Apr2020 18:27:56.599] [Netty Server IO #3/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [lucky:main_channel] rejected their client side version number
+[22Apr2020 18:27:56.600] [Netty Server IO #3/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[22Apr2020 18:27:56.642] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@774b916e[id=<null>,name=JeremyTrump,properties={},legacy=false] (/127.0.0.1:59176) lost connection: Connection closed - mismatched mod channel list
+[22Apr2020 18:32:12.761] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[22Apr2020 18:33:53.151] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting new modded network connection. Found 21 messages to dispatch.
+[22Apr2020 18:33:53.185] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.fml.network.FMLHandshakeMessages$S2CModList' to 'fml:handshake' sequence 0
+[22Apr2020 18:33:53.234] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 1
+[22Apr2020 18:33:53.259] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[22Apr2020 18:33:53.260] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 0 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SModListReply
+[22Apr2020 18:33:53.260] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, lucky, forge, worldedit, tlskincape, journeymap, jei]
+[22Apr2020 18:33:53.260] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'worldedit:cui' : Version test of '1' from client : ACCEPTED
+[22Apr2020 18:33:53.260] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from client : ACCEPTED
+[22Apr2020 18:33:53.260] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from client : ACCEPTED
+[22Apr2020 18:33:53.260] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'jei:channel' : Version test of '1.0.0' from client : ACCEPTED
+[22Apr2020 18:33:53.261] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'worldedit:internal' : Version test of '1' from client : ACCEPTED
+[22Apr2020 18:33:53.261] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from client : ACCEPTED
+[22Apr2020 18:33:53.261] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from client : ACCEPTED
+[22Apr2020 18:33:53.261] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from client : ACCEPTED
+[22Apr2020 18:33:53.261] [Netty Server IO #6/INFO] [journeymap/]: Dev Mode?
+[22Apr2020 18:33:53.262] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'journeymap:_channel' : Version test of '1' from client : ACCEPTED
+[22Apr2020 18:33:53.262] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'lucky:main_channel' : Version test of '1' from client : ACCEPTED
+[22Apr2020 18:33:53.262] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[22Apr2020 18:33:53.262] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[22Apr2020 18:33:53.267] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[22Apr2020 18:33:53.267] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.267] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.285] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 2
+[22Apr2020 18:33:53.296] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[22Apr2020 18:33:53.296] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.296] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.334] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 3
+[22Apr2020 18:33:53.337] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[22Apr2020 18:33:53.337] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 3 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.337] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.384] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 4
+[22Apr2020 18:33:53.387] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[22Apr2020 18:33:53.387] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 4 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.387] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.434] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 5
+[22Apr2020 18:33:53.438] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[22Apr2020 18:33:53.438] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 5 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.438] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.485] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 6
+[22Apr2020 18:33:53.486] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[22Apr2020 18:33:53.487] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 6 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.487] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.533] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 7
+[22Apr2020 18:33:53.536] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[22Apr2020 18:33:53.536] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 7 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.536] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.584] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 8
+[22Apr2020 18:33:53.589] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[22Apr2020 18:33:53.589] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 8 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.589] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.634] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 9
+[22Apr2020 18:33:53.656] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[22Apr2020 18:33:53.656] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 9 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.656] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.684] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 10
+[22Apr2020 18:33:53.686] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[22Apr2020 18:33:53.686] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 10 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.686] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.733] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:moddimensions' to 'fml:handshake' sequence 11
+[22Apr2020 18:33:53.735] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[22Apr2020 18:33:53.735] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 11 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.736] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.783] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:biome' to 'fml:handshake' sequence 12
+[22Apr2020 18:33:53.786] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[22Apr2020 18:33:53.786] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 12 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.786] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.834] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 13
+[22Apr2020 18:33:53.837] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[22Apr2020 18:33:53.838] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 13 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.838] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.885] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 14
+[22Apr2020 18:33:53.887] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[22Apr2020 18:33:53.887] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 14 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.887] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.935] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:motive' to 'fml:handshake' sequence 15
+[22Apr2020 18:33:53.937] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[22Apr2020 18:33:53.937] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 15 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.937] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:53.985] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:feature' to 'fml:handshake' sequence 16
+[22Apr2020 18:33:53.987] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[22Apr2020 18:33:53.987] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 16 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:53.987] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:54.034] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:dataserializers' to 'fml:handshake' sequence 17
+[22Apr2020 18:33:54.036] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[22Apr2020 18:33:54.036] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 17 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:54.036] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:54.084] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 18
+[22Apr2020 18:33:54.087] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[22Apr2020 18:33:54.087] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 18 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:54.087] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:54.134] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 19
+[22Apr2020 18:33:54.187] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 20
+[22Apr2020 18:33:54.361] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[22Apr2020 18:33:54.361] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 19 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:54.361] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:54.363] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 20
+[22Apr2020 18:33:54.364] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 20 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[22Apr2020 18:33:54.364] [Netty Server IO #6/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[22Apr2020 18:33:54.385] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[22Apr2020 18:33:54.560] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: JeremyTrump[/127.0.0.1:59410] logged in with entity id 203 at (160.5, 65.0, -52.5)
+[22Apr2020 18:33:54.600] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeremyTrump joined the game
+[22Apr2020 18:33:54.601] [Netty Server IO #6/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@290a93c9 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[22Apr2020 18:33:54.601] [Netty Server IO #6/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@2060535a (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[22Apr2020 18:35:02.159] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made JeremyTrump a server operator
+[22Apr2020 18:35:02.162] [Netty Server IO #6/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@290a93c9 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[22Apr2020 18:35:02.163] [Netty Server IO #6/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@2060535a (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[22Apr2020 18:35:06.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown command
+[22Apr2020 18:35:06.246] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: h<--[HERE]
+[22Apr2020 18:35:18.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeremyTrump: Set own game mode to Creative Mode]
+[22Apr2020 18:35:25.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeremyTrump: Gave 1 [Repeating Command Block] to JeremyTrump]
+[22Apr2020 18:35:55.891] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: JeremyTrump lost connection: Disconnected
+[22Apr2020 18:35:55.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeremyTrump left the game
+[22Apr2020 18:36:00.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown command
+[22Apr2020 18:36:00.338] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: STOP<--[HERE]
+[22Apr2020 18:36:02.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[22Apr2020 18:36:02.934] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Unregistering com.sk89q.worldedit.forge.ForgePlatform from WorldEdit
+[22Apr2020 18:36:02.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Apr2020 18:36:02.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Apr2020 18:36:02.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Apr2020 18:36:02.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'world'/minecraft:overworld
+[22Apr2020 18:36:03.285] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Apr2020 18:36:03.285] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[22Apr2020 18:36:03.298] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved

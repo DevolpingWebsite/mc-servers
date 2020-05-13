@@ -1,0 +1,88 @@
+---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 23/04/2020, 17:56
+Description: Exception in server tick loop
+
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Mod §ecraftingstation§r requires §6extratags§r §o1.0 or above§r
+§7Currently, §6extratags§r§7 is §o§nnot installed
+]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:168) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) ~[?:?] {re:classloading}
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:122) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at java.lang.Thread.run(Thread.java:834) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.2
+	Minecraft Version ID: 1.15.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 11.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 567361792 bytes (541 MB) / 1007681536 bytes (961 MB) up to 4271898624 bytes (4074 MB)
+	CPUs: 8
+	JVM Flags: 0 total; 
+	ModLauncher: 5.0.0-milestone.4+67+b1a340b
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/eventbus-2.0.0-milestone.1-service.jar eventbus PLUGINSERVICE 
+		/forge-1.15.2-31.1.42.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.15.2-31.1.42.jar runtime_enum_extender PLUGINSERVICE 
+		/forge-1.15.2-31.1.42.jar capability_inject_definalize PLUGINSERVICE 
+		/accesstransformers-2.0.4-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.15.2-31.1.42.jar runtimedistcleaner PLUGINSERVICE 
+		/preview_OptiFine_1.15.2_HD_U_G1_pre13.jar OptiFine TRANSFORMATIONSERVICE 
+		/forge-1.15.2-31.1.42.jar fml TRANSFORMATIONSERVICE 
+		/OptiForge-MC1.15.2-0.1.11.jar optiforge TRANSFORMATIONSERVICE 
+		/MixinBootstrap-1.0.2.jar mixinbootstrap TRANSFORMATIONSERVICE 
+		/MixinBootstrap-1.0.2.jar mixin PLUGINSERVICE 
+		/MixinBootstrap-1.0.2.jar mixinbootstrap PLUGINSERVICE 
+	FML: 31.1
+	Forge: net.minecraftforge:31.1.42
+	FML Language Providers: 
+		javafml@31.1
+		minecraft@1
+	Mod List: 
+		forge-1.15.2-31.1.42-server.jar Minecraft {minecraft@1.15.2 NONE}
+		luckyblock-1.15.2-1.jar Lucky Block {lucky@1.15.2-1 NONE}
+		inftrading_1.15.2-1.0.jar Infinite Trading {inftrading@1.0 NONE}
+		EnchantmentDescriptions-1.15.2-2.0.8.jar EnchantmentDescriptions {enchdesc@2.0.8 NONE}
+		doubledoors_1.15-2.0.jar Double Doors {doubledoors@2.0 NONE}
+		damage_indicator-0.1.0.jar Ama's Damage Indicator {damage_indicator@0.0.9 NONE}
+		Durability101-1.15-0.0.3.jar Durability101 {durability101@0.0.3 NONE}
+		ironfurnaces-1.15.2-2.0.1.jar Iron Furnaces {ironfurnaces@2.0.1 NONE}
+		craftingstation-3.1.0.jar Crafting Station {craftingstation@3.1.0 NONE}
+		jei-1.15.2-6.0.0.3.jar Just Enough Items {jei@6.0.0.3 NONE}
+		OptiForge-MC1.15.2-0.1.11.jar OptiForge {optiforge@0.1.11 NONE}
+		FallingTree-1.15.2-2.1.0%2B24.jar Falling Tree {falling_tree@2.1.0+24 NONE}
+		Quark-r2.1-230.jar Quark {quark@r2.1-230 NONE}
+		Neat+1.6-20.jar Neat {neat@1.6-20 NONE}
+		Waystones_1.15.2-6.0.1.jar Waystones {waystones@6.0.1 NONE}
+		journeymap-1.15.2-5.7.0beta1.jar Journeymap {journeymap@1.15.2-5.7.0beta1 NONE}
+		AutoRegLib-1.5-40.jar AutoRegLib {autoreglib@1.5-40 NONE}
+		%5b1.15.2%5d+SecurityCraft+v1.8.17.jar SecurityCraft {securitycraft@v1.8.17 NONE}
+		OreExcavation-1.7.151.jar Ore Excavation {oreexcavation@NONE NONE}
+		DoubleSlabs-1.15-2.2.3.jar Double Slabs {doubleslabs@2.2.3 NONE}
+		libnonymous-1.15.2-1.1.1.5.jar Libnonymous {libnonymous@1.1.1.5 NONE}
+		elevatorid-1.15.2-1.7.0.jar Elevator Mod {elevatorid@1.15.2-1.7.0 NONE}
+		Bookshelf-1.15.2-5.3.11.jar Bookshelf {bookshelf@5.3.11 NONE}
+		worldedit-forge-mc1.15.2-7.1.0.jar WorldEdit {worldedit@7.1.0;48cc31c NONE}
+		ChanceCubes-1.15.2-5.0.2.360.jar Chance Cubes {chancecubes@1.15.2-5.0.2.360 NONE}
+		BonsaiTrees-2.1.2.6.jar Bonsai Trees 2 {bonsaitrees2@2.1.2.6 NONE}
+		AppleSkin-mc1.15.2-forge-1.0.13.jar AppleSkin {appleskin@1.0.13 NONE}
+		globalxp-1.15.2-v1.4.11.jar Global XP {globalxp@v1.4.11 NONE}
+		forge-1.15.2-31.1.42-universal.jar Forge {forge@31.1.42 NONE}
+		FastLeafDecay-v22.jar FastLeafDecay {fastleafdecay@v22 NONE}
+		tlskincape1.15.2-1.11.jar TLSkinCape {tlskincape@1.6 NONE}
+		ironchest-1.15.2-10.0.3.jar Iron Chests {ironchest@1.15.2-10.0.1 NONE}
+		corpse-1.15.2-1.0.3.jar Corpse {corpse@1.15.2-1.0.3 NONE}
+	Data Packs: 
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)

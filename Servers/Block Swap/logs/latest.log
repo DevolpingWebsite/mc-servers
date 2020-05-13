@@ -1,0 +1,479 @@
+[17:58:21] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[17:58:21] [Server thread/INFO]: Loading properties
+[17:58:21] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[patched_1.15.2.jar:git-Paper-185]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.15.2.jar:git-Paper-185]
+	at net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:90) ~[patched_1.15.2.jar:git-Paper-185]
+	Suppressed: java.io.IOException: The handle is invalid
+		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
+		at java.io.FileDescriptor.close(FileDescriptor.java:297) ~[?:?]
+		at java.io.FileInputStream$1.close(FileInputStream.java:375) ~[?:?]
+		at java.io.FileDescriptor.closeAll(FileDescriptor.java:355) ~[?:?]
+		at java.io.FileInputStream.close(FileInputStream.java:373) ~[?:?]
+		at java.io.BufferedInputStream.close(BufferedInputStream.java:489) ~[?:?]
+		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:378) ~[?:?]
+		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:193) ~[?:?]
+		at java.io.InputStreamReader.close(InputStreamReader.java:200) ~[?:?]
+		at java.io.BufferedReader.close(BufferedReader.java:528) ~[?:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[patched_1.15.2.jar:git-Paper-185]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.15.2.jar:git-Paper-185]
+		at net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:90) ~[patched_1.15.2.jar:git-Paper-185]
+[17:58:22] [Server thread/INFO]: This server is running Paper version git-Paper-185 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[17:58:22] [Server thread/INFO]: Debug logging is disabled
+[17:58:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:58:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:58:22] [Server thread/INFO]: Default game type: SURVIVAL
+[17:58:22] [Server thread/INFO]: Generating keypair
+[17:58:23] [Server thread/INFO]: Starting Minecraft server on *:25575
+[17:58:23] [Server thread/INFO]: Using default channel type
+[17:58:25] [Server thread/ERROR]: Could not load 'plugins\bstats-bukkit-1.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:161) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:148) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.loadPlugins(CraftServer.java:358) ~[patched_1.15.2.jar:git-Paper-185]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:234) ~[patched_1.15.2.jar:git-Paper-185]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:891) ~[patched_1.15.2.jar:git-Paper-185]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[17:58:27] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:58:34] [Server thread/WARN]: Legacy plugin Minigames v1.12.0-SNAPSHOT- does not specify an api-version.
+[17:58:34] [Server thread/WARN]: Legacy plugin PermissionsEx v1.23.5 does not specify an api-version.
+[17:58:34] [Server thread/WARN]: Legacy plugin XP-Deposit v4.3.1 does not specify an api-version.
+[17:58:34] [Server thread/WARN]: Legacy plugin Minigames-Regions v1.12.0-SNAPSHOT- does not specify an api-version.
+[17:58:34] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[17:58:35] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@55272705]
+[17:58:35] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.0.8
+[17:58:35] [Server thread/INFO]: [Minigames] Loading Minigames v1.12.0-SNAPSHOT-
+[17:58:35] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.5
+[17:58:35] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[17:58:35] [Server thread/INFO]: [DeathSwap] Loading DeathSwap v1.0
+[17:58:35] [Server thread/INFO]: [PexTabCompleter] Loading PexTabCompleter v1.2.5
+[17:58:35] [Server thread/INFO]: [ManHunt] Loading ManHunt v1.0
+[17:58:35] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[17:58:35] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.6.4
+[17:58:35] [Server thread/INFO]: [BlockShuffle] Loading BlockShuffle v1.0
+[17:58:35] [Server thread/INFO]: [MinecraftForcefield] Loading MinecraftForcefield v1.0
+[17:58:35] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.1-SNAPSHOT-b451
+[17:58:35] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.15.2) has not yet been tested! Proceed with caution.
+[17:58:36] [Server thread/INFO]: [XP-Deposit] Loading XP-Deposit v4.3.1
+[17:58:36] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v10.0.8
+[17:58:36] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.3.3
+[17:58:36] [Server thread/INFO]: [Minigames-Regions] Loading Minigames-Regions v1.12.0-SNAPSHOT-
+[17:58:36] [Server thread/INFO]: [EnderdragonBattle] Loading EnderdragonBattle v1.0
+[17:58:36] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
+[17:58:36] [Server thread/INFO]: [TabList] Loading TabList v5.2.1
+[17:58:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:58:36] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[17:58:36] [Server thread/WARN]: [WorldEdit] Loaded class ru.tehkode.permissions.PermissionManager from PermissionsEx v1.23.5 which is not a depend, softdepend or loadbefore of this plugin.
+[17:58:36] [Server thread/WARN]: [WorldEdit] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[17:58:36] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:58:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[17:58:37] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[17:58:37] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[17:58:37] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:58:37] [Server thread/WARN]: [Vault] Loaded class ru.tehkode.permissions.bukkit.PermissionsEx from PermissionsEx v1.23.5 which is not a depend, softdepend or loadbefore of this plugin.
+[17:58:37] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[17:58:37] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:58:37] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[17:58:37] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[17:58:37] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:58:37] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.1-SNAPSHOT-b451
+[17:58:37] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[17:58:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:58:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:58:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:58:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:58:38] [Server thread/INFO]: Preparing level "world"
+[17:58:38] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, datapack
+[17:58:39] [Server thread/INFO]: Loaded 6 recipes
+[17:58:39] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:58:39] [Server thread/INFO]: View Distance: 10
+[17:58:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:58:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:58:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:58:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:58:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:58:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:58:39] [Server thread/INFO]: Mob Spawn Range: 8
+[17:58:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:58:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:58:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:58:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:58:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:58:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[17:58:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:58:39] [Server thread/INFO]: Max TNT Explosions: 100
+[17:58:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:58:40] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:58:40] [Server thread/INFO]: View Distance: 10
+[17:58:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:58:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:58:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:58:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:58:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:58:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:58:40] [Server thread/INFO]: Mob Spawn Range: 8
+[17:58:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:58:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:58:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:58:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:58:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[17:58:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:58:40] [Server thread/INFO]: Max TNT Explosions: 100
+[17:58:40] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:58:40] [Server thread/INFO]: View Distance: 10
+[17:58:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:58:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:58:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:58:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:58:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:58:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:58:40] [Server thread/INFO]: Mob Spawn Range: 8
+[17:58:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:58:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:58:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:58:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:58:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:58:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[17:58:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:58:40] [Server thread/INFO]: Max TNT Explosions: 100
+[17:58:40] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[17:58:40] [Server thread/INFO]: Preparing spawn area: 0%
+[17:58:40] [Server thread/INFO]: Preparing spawn area: 0%
+[17:58:41] [Server thread/INFO]: Preparing spawn area: 5%
+[17:58:41] [Server thread/INFO]: Preparing spawn area: 13%
+[17:58:42] [Server thread/INFO]: Preparing spawn area: 30%
+[17:58:42] [Server thread/INFO]: Preparing spawn area: 59%
+[17:58:43] [Server thread/INFO]: Preparing spawn area: 87%
+[17:58:43] [Server thread/INFO]: Preparing spawn area: 100%
+[17:58:44] [Server thread/INFO]: Preparing spawn area: 100%
+[17:58:44] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[17:58:44] [Server thread/INFO]: Time elapsed: 4490 ms
+[17:58:44] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[17:58:44] [Server thread/INFO]: Preparing spawn area: 0%
+[17:58:45] [Server-Worker-3/INFO]: Preparing spawn area: 14%
+[17:58:45] [Server thread/INFO]: Preparing spawn area: 48%
+[17:58:46] [Server thread/INFO]: Preparing spawn area: 100%
+[17:58:46] [Server thread/INFO]: Preparing spawn area: 100%
+[17:58:47] [Server thread/INFO]: Preparing spawn area: 100%
+[17:58:47] [Server-Worker-5/INFO]: Preparing spawn area: 100%
+[17:58:47] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
+[17:58:47] [Server thread/INFO]: Time elapsed: 3090 ms
+[17:58:47] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[17:58:47] [Server thread/INFO]: Preparing spawn area: 0%
+[17:58:48] [Server thread/INFO]: Preparing spawn area: 100%
+[17:58:48] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[17:58:48] [Server thread/INFO]: Time elapsed: 851 ms
+[17:58:48] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.0.8
+[17:58:48] [Server thread/INFO]: [Minigames] Enabling Minigames v1.12.0-SNAPSHOT-*
+[17:58:48] [Server thread/INFO]: [Minigames] Using lang en_AU
+[17:58:48] [Server thread/INFO]: Failed to load config, creating one.
+[17:58:48] [Server thread/WARN]: [Minigames] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+[17:58:50] [Server thread/INFO]: Minigames successfully enabled.
+[17:58:50] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.5*
+[17:58:50] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[17:58:50] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[17:58:50] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[17:58:50] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[17:58:50] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[17:58:50] [Server thread/INFO]: [DeathSwap] Enabling DeathSwap v1.0
+[17:58:50] [Server thread/INFO]: [PexTabCompleter] Enabling PexTabCompleter v1.2.5
+[17:58:50] [Server thread/INFO]: [ManHunt] Enabling ManHunt v1.0
+[17:58:51] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.6.4
+[17:58:51] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-* MyCommand *-=-=-=-=-=-=-=-=-=-=-*
+[17:58:51] [Server thread/INFO]: | Vault  : Ok. Hooked on Vault 1.7.2-b107
+[17:58:51] [Server thread/INFO]: | Command file(s) found : 1
+[17:58:51] [Server thread/INFO]: | Config : Ready.
+[17:58:51] [Server thread/INFO]: | PlaceholderAPI: Not Found
+[17:58:51] [Server thread/INFO]: | Custom commands loaded : 48
+[17:58:51] [Server thread/INFO]: | Version: 5.6.4
+[17:58:51] [Server thread/INFO]: | Author : emmerrei a.k.a Ivanpro
+[17:58:52] [Thread-16/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[17:58:53] [Server thread/INFO]: | New update available : MyCommand v5.6.5
+[17:58:53] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[17:58:53] [Server thread/INFO]: [BlockShuffle] Enabling BlockShuffle v1.0
+[17:58:53] [Server thread/INFO]: [MinecraftForcefield] Enabling MinecraftForcefield v1.0
+[17:58:53] [Server thread/INFO]: [XP-Deposit] Enabling XP-Deposit v4.3.1*
+[17:58:53] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.8
+[17:58:53] [Server thread/INFO]: [LibsDisguises] Discovered nms version: v1_15_R1
+[17:58:53] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #555
+[17:58:53] [Server thread/INFO]: [LibsDisguises] Build Date: 02/05/2020 03:43
+[17:58:53] [Server thread/WARN]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[17:58:53] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[17:58:54] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
+[17:58:54] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
+[17:58:54] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.3.3
+[17:58:54] [Server thread/INFO]: [PlayerKits] Has been enabled! Version: 2.3.3
+[17:58:54] [Server thread/INFO]: [PlayerKits] Thanks for using my plugin!  ~Ajneb97
+[17:58:54] [Server thread/INFO]: [Minigames-Regions] Enabling Minigames-Regions v1.12.0-SNAPSHOT-*
+[17:58:54] [Server thread/INFO]: [Minigames-Regions] Minigames Regions successfully enabled!
+[17:58:54] [Server thread/INFO]: [EnderdragonBattle] Enabling EnderdragonBattle v1.0
+[17:58:54] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
+[17:58:55] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:58:55] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:58:55] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[17:58:55] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[17:58:55] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[17:58:55] [Server thread/INFO]: [Essentials] Loaded 21018 items from items.json.
+[17:58:55] [Server thread/INFO]: [Essentials] Using locale en_GB
+[17:58:55] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:58:55] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:58:55] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[17:58:55] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[17:58:55] [Server thread/INFO]: [TabList] Enabling TabList v5.2.1
+[17:58:56] [Server thread/INFO]: [TabList] Downloading new version of TabList...
+[17:58:56] [Server thread/INFO]: [TabList] New version (5.4.0) is available at https://www.spigotmc.org/resources/46229/
+[17:58:56] [Server thread/INFO]: [TabList] Metrics enabled.
+[17:58:56] [Server thread/INFO]: [TabList] > The plugin successfully enabled v5.2.1!
+[17:58:57] [Server thread/INFO]: Done (19.725s)! For help, type "help"
+[17:58:57] [Server thread/INFO]: Timings Reset
+[17:58:57] [Craft Scheduler Thread - 5/INFO]: [LibsDisguises] Now looking for update on Github..
+[17:58:57] [Craft Scheduler Thread - 9/INFO]: [Vault] Checking for Updates ... 
+[17:58:58] [Craft Scheduler Thread - 9/INFO]: [Vault] No new version available
+[17:58:58] [Craft Scheduler Thread - 6/WARN]: java.io.FileNotFoundException: https://github.com/montlikadani/TabList/releases/download/v5.4.0/TabList.jar
+[17:58:58] [Craft Scheduler Thread - 6/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+[17:58:58] [Craft Scheduler Thread - 6/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+[17:58:58] [Craft Scheduler Thread - 6/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+[17:58:58] [Craft Scheduler Thread - 6/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1117)
+[17:58:58] [Craft Scheduler Thread - 6/WARN]: 	at hu.montlikadani.tablist.bukkit.utils.UpdateDownloader$1.run(UpdateDownloader.java:88)
+[17:58:58] [Craft Scheduler Thread - 6/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[17:58:58] [Craft Scheduler Thread - 6/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[17:58:58] [Craft Scheduler Thread - 6/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[17:58:58] [Craft Scheduler Thread - 6/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[17:58:58] [Craft Scheduler Thread - 6/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[17:58:58] [Craft Scheduler Thread - 6/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[17:59:07] [Server thread/INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
+[18:01:26] [User Authenticator #1/INFO]: UUID of player JeremyTrump is 5a732839-5da3-3938-885d-2681d24ef149
+[18:01:27] [Server thread/INFO]: [TabList] Downloading new version of TabList...
+[18:01:27] [Server thread/INFO]: JeremyTrump[/127.0.0.1:59496] logged in with entity id 160 at ([world_the_end]-1.4208143886423168, 64.0, -5.238635141072887)
+[18:01:28] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[18:01:28] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[18:01:29] [Craft Scheduler Thread - 11/WARN]: java.io.FileNotFoundException: https://github.com/montlikadani/TabList/releases/download/v5.4.0/TabList.jar
+[18:01:29] [Craft Scheduler Thread - 11/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
+[18:01:29] [Craft Scheduler Thread - 11/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+[18:01:29] [Craft Scheduler Thread - 11/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
+[18:01:29] [Craft Scheduler Thread - 11/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1117)
+[18:01:29] [Craft Scheduler Thread - 11/WARN]: 	at hu.montlikadani.tablist.bukkit.utils.UpdateDownloader$1.run(UpdateDownloader.java:88)
+[18:01:29] [Craft Scheduler Thread - 11/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[18:01:29] [Craft Scheduler Thread - 11/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[18:01:29] [Craft Scheduler Thread - 11/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[18:01:29] [Craft Scheduler Thread - 11/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[18:01:29] [Craft Scheduler Thread - 11/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[18:01:29] [Craft Scheduler Thread - 11/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[18:01:36] [Server thread/INFO]: JeremyTrump issued server command: /enderdragonbattle JeremyTrump
+[18:01:40] [Server thread/INFO]: JeremyTrump issued server command: /home
+[18:01:47] [Server thread/INFO]: JeremyTrump issued server command: /kill *
+[18:01:47] [Server thread/INFO]: JeremyTrump died
+[18:02:04] [Server thread/INFO]: JeremyTrump issued server command: /minigame
+[18:02:11] [Server thread/INFO]: JeremyTrump issued server command: /minigames:mgame
+[18:02:16] [Server thread/INFO]: JeremyTrump issued server command: /minigames:mgame help
+[18:02:32] [Server thread/INFO]: JeremyTrump issued server command: /mgm create
+[18:02:40] [Server thread/INFO]: JeremyTrump issued server command: /mgm list
+[18:03:10] [Server thread/INFO]: JeremyTrump issued server command: /mgm player JeremyTrump
+[18:03:21] [Server thread/INFO]: JeremyTrump issued server command: /minigames:mgame backend
+[18:03:27] [Server thread/INFO]: JeremyTrump issued server command: /mgm spectate
+[18:03:36] [Server thread/INFO]: JeremyTrump issued server command: /mgm enableall
+[18:04:04] [Server thread/INFO]: JeremyTrump issued server command: /mgm create game global
+[18:04:22] [Server thread/INFO]: JeremyTrump issued server command: /mgm help
+[18:04:32] [Server thread/INFO]: JeremyTrump issued server command: /mgm join game
+[18:05:20] [Server thread/INFO]: JeremyTrump issued server command: /mgm end black
+[18:05:27] [Server thread/INFO]: JeremyTrump issued server command: /mgm end JeremyTrump
+[18:05:36] [Server thread/INFO]: JeremyTrump issued server command: /mgm create game2 singleplayer
+[18:05:44] [Server thread/INFO]: JeremyTrump issued server command: /mgm join game2
+[18:06:05] [Server thread/INFO]: JeremyTrump issued server command: /mgm edit game2 Spleef
+[18:06:51] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to Minigames v1.12.0-SNAPSHOT-
+java.lang.IllegalStateException: InventoryOpenEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callInventoryOpenEvent(CraftEventFactory.java:1205) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callInventoryOpenEvent(CraftEventFactory.java:1191) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.craftbukkit.v1_15_R1.entity.CraftHumanEntity.openCustomInventory(CraftHumanEntity.java:349) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.craftbukkit.v1_15_R1.entity.CraftHumanEntity.openInventory(CraftHumanEntity.java:334) ~[patched_1.15.2.jar:git-Paper-185]
+	at au.com.mineauz.minigames.menu.Menu.displayMenu(Menu.java:167) ~[?:?]
+	at au.com.mineauz.minigames.menu.MenuItemInteger.checkValidEntry(MenuItemInteger.java:123) ~[?:?]
+	at au.com.mineauz.minigames.Events.manualItemEntry(Events.java:673) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.15.2.jar:git-Paper-185]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.15.2.jar:git-Paper-185]
+	at net.minecraft.server.v1_15_R1.PlayerConnection.chat(PlayerConnection.java:1738) ~[patched_1.15.2.jar:git-Paper-185]
+	at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1653) ~[patched_1.15.2.jar:git-Paper-185]
+	at net.minecraft.server.v1_15_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:41) ~[patched_1.15.2.jar:git-Paper-185]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[18:06:57] [Async Chat Thread - #0/INFO]: <JeremyTrump> 90
+[18:07:03] [Server thread/INFO]: JeremyTrump issued server command: /mgm edit game2 Spleef
+[18:07:44] [Server thread/INFO]: JeremyTrump issued server command: /mgm edit game2 Spleef
+[18:07:59] [Async Chat Thread - #1/ERROR]: Could not pass event AsyncPlayerChatEvent to Minigames v1.12.0-SNAPSHOT-
+java.lang.IllegalStateException: InventoryOpenEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callInventoryOpenEvent(CraftEventFactory.java:1205) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callInventoryOpenEvent(CraftEventFactory.java:1191) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.craftbukkit.v1_15_R1.entity.CraftHumanEntity.openCustomInventory(CraftHumanEntity.java:349) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.craftbukkit.v1_15_R1.entity.CraftHumanEntity.openInventory(CraftHumanEntity.java:334) ~[patched_1.15.2.jar:git-Paper-185]
+	at au.com.mineauz.minigames.menu.Menu.displayMenu(Menu.java:167) ~[?:?]
+	at au.com.mineauz.minigames.menu.MenuItemInteger.checkValidEntry(MenuItemInteger.java:123) ~[?:?]
+	at au.com.mineauz.minigames.Events.manualItemEntry(Events.java:673) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.15.2.jar:git-Paper-185]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.15.2.jar:git-Paper-185]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607) ~[patched_1.15.2.jar:git-Paper-185]
+	at net.minecraft.server.v1_15_R1.PlayerConnection.chat(PlayerConnection.java:1738) ~[patched_1.15.2.jar:git-Paper-185]
+	at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1653) ~[patched_1.15.2.jar:git-Paper-185]
+	at net.minecraft.server.v1_15_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:41) ~[patched_1.15.2.jar:git-Paper-185]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[18:08:03] [Async Chat Thread - #1/INFO]: <JeremyTrump> 30
+[18:08:07] [Server thread/INFO]: JeremyTrump issued server command: /mgm edit game2 Spleef
+[18:08:44] [Server thread/INFO]: JeremyTrump issued server command: /mgm edit game2 Spleef
+[18:09:18] [Server thread/INFO]: JeremyTrump issued server command: /mgm edit game2 Spleef
+[18:09:55] [Server thread/INFO]: JeremyTrump issued server command: /mgm join game2
+[18:10:12] [Server thread/INFO]: JeremyTrump issued server command: /mgm backup game
+[18:13:15] [Server thread/INFO]: JeremyTrump issued server command: //walls
+[18:13:20] [Server thread/INFO]: JeremyTrump issued server command: //walls minecraft:acacia_fence
+[18:13:27] [Server thread/INFO]: JeremyTrump issued server command: //wand
+[18:13:37] [Server thread/INFO]: JeremyTrump issued server command: //pos2
+[18:13:54] [Server thread/INFO]: JeremyTrump issued server command: //walls minecraft:stone_bricks
+[18:14:16] [Server thread/INFO]: JeremyTrump issued server command: //walls minecraft:stone_bricks
+[18:14:45] [Server thread/INFO]: JeremyTrump issued server command: //walls minecraft:stone_bricks
+[18:15:28] [Server thread/INFO]: JeremyTrump issued server command: //walls minecraft:stone_bricks
+[18:15:42] [Server thread/INFO]: JeremyTrump issued server command: //walls minecraft:stone_bricks
+[18:16:13] [Server thread/INFO]: JeremyTrump issued server command: //walls minecraft:stone_bricks
+[18:16:38] [Server thread/INFO]: JeremyTrump issued server command: //walls minecraft:stone_bricks
+[18:17:15] [Server thread/INFO]: JeremyTrump issued server command: //walls minecraft:stone_bricks
+[18:17:34] [Server thread/INFO]: JeremyTrump issued server command: /mg enableall game2
+[18:17:41] [Server thread/INFO]: JeremyTrump issued server command: /gamemode spectator
+[18:17:54] [Server thread/INFO]: JeremyTrump issued server command: /gamemode creative
+[18:18:54] [Server thread/INFO]: JeremyTrump issued server command: /mg create FFA
+[18:18:58] [Server thread/INFO]: JeremyTrump issued server command: /mg tool
+[18:18:58] [Server thread/INFO]: JeremyTrump has made the advancement [Into Fire]
+[18:19:12] [Server thread/INFO]: JeremyTrump issued server command: /mg create FFA multiplayer
+[18:19:20] [Server thread/INFO]: JeremyTrump issued server command: /mg create pvp multiplayer
+[18:19:49] [Server thread/INFO]: JeremyTrump issued server command: /mg edit pvp
+[18:20:02] [Server thread/INFO]: JeremyTrump issued server command: /mg tool minigame pvp
+[18:21:53] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[18:21:53] [Server thread/INFO]: JeremyTrump left the game
+[18:29:22] [Server thread/INFO]: Stopping the server
+[18:29:22] [Server thread/INFO]: Stopping server
+[18:29:22] [Server thread/INFO]: [TabList] Disabling TabList v5.2.1
+[18:29:22] [Server thread/INFO]: [TabList] > The plugin successfully disabled!
+[18:29:22] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.0
+[18:29:22] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[18:29:22] [Server thread/INFO]: [EnderdragonBattle] Disabling EnderdragonBattle v1.0
+[18:29:22] [Server thread/INFO]: [Minigames-Regions] Disabling Minigames-Regions v1.12.0-SNAPSHOT-
+[18:29:22] [Server thread/INFO]: [Minigames-Regions] Minigames Regions disabled
+[18:29:22] [Server thread/INFO]: [PlayerKits] Disabling PlayerKits v2.3.3
+[18:29:22] [Server thread/INFO]: [PlayerKits] Has been disabled! Version: 2.3.3
+[18:29:22] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v10.0.8
+[18:29:22] [Server thread/INFO]: [XP-Deposit] Disabling XP-Deposit v4.3.1
+[18:29:22] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.5.1-SNAPSHOT-b451
+[18:29:22] [Server thread/INFO]: [MinecraftForcefield] Disabling MinecraftForcefield v1.0
+[18:29:22] [Server thread/INFO]: [BlockShuffle] Disabling BlockShuffle v1.0
+[18:29:22] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.6.4
+[18:29:22] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-* MyCommand *-=-=-=-=-=-=-=-=-=-=-*
+[18:29:22] [Server thread/INFO]: | Tasks   : Stopped all.
+[18:29:22] [Server thread/INFO]: | Version : 5.6.4
+[18:29:22] [Server thread/INFO]: | Author  : emmerrei a.k.a Ivanpro
+[18:29:22] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
+[18:29:22] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[18:29:22] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[18:29:22] [Server thread/INFO]: [ManHunt] Disabling ManHunt v1.0
+[18:29:22] [Server thread/INFO]: [PexTabCompleter] Disabling PexTabCompleter v1.2.5
+[18:29:22] [Server thread/INFO]: [DeathSwap] Disabling DeathSwap v1.0
+[18:29:22] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.5
+[18:29:22] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[18:29:22] [Server thread/INFO]: [Minigames] Disabling Minigames v1.12.0-SNAPSHOT-
+[18:29:22] [Server thread/INFO]: Minigames successfully disabled.
+[18:29:22] [pool-14-thread-1/WARN]: java.sql.SQLException: The prepared statement has been finalized
+[18:29:22] [pool-14-thread-1/WARN]: 	at org.sqlite.core.NativeDB.throwex(NativeDB.java:478)
+[18:29:22] [pool-14-thread-1/WARN]: 	at org.sqlite.core.NativeDB.finalize(Native Method)
+[18:29:22] [pool-14-thread-1/WARN]: 	at org.sqlite.core.DB.exec(DB.java:182)
+[18:29:22] [pool-14-thread-1/WARN]: 	at org.sqlite.SQLiteConnection.commit(SQLiteConnection.java:405)
+[18:29:22] [pool-14-thread-1/WARN]: 	at au.com.mineauz.minigames.backend.ConnectionHandler.endTransaction(ConnectionHandler.java:143)
+[18:29:22] [pool-14-thread-1/WARN]: 	at au.com.mineauz.minigames.backend.sqlite.SQLiteBackend.saveStatSettings(SQLiteBackend.java:321)
+[18:29:22] [pool-14-thread-1/WARN]: 	at au.com.mineauz.minigames.backend.BackendManager$8.call(BackendManager.java:232)
+[18:29:22] [pool-14-thread-1/WARN]: 	at au.com.mineauz.minigames.backend.BackendManager$8.call(BackendManager.java:229)
+[18:29:22] [pool-14-thread-1/WARN]: 	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:111)
+[18:29:22] [pool-14-thread-1/WARN]: 	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:58)
+[18:29:22] [pool-14-thread-1/WARN]: 	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:75)
+[18:29:22] [pool-14-thread-1/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[18:29:22] [pool-14-thread-1/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[18:29:22] [pool-14-thread-1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[18:29:22] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.0.8
+[18:29:22] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
+[18:29:22] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:29:22] [Server thread/INFO]: Saving players
+[18:29:22] [Server thread/INFO]: Saving worlds
+[18:29:22] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[18:29:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:29:22] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[18:29:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:29:22] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[18:29:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:29:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:29:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:29:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

@@ -1,0 +1,13 @@
+Messages:
+  inventoryPlayers: '&8Select a Player'
+  inventoryCurses: '&8Select a Curse'
+  itemCurse: '&4&lCurse: &8%player%'
+  itemBack: '&7Back'
+  itemPlayer: '&aCurrently Cursing: &7%player%'
+  itemConfirmation: '&cAre you sure you want to curse yourself?'
+  curseStatusEnabled: '&aENABLED'
+  curseStatusDisabled: '&cDISABLED'
+  playerNotOnline: '&cThat player is not online.'
+  curseEnabled: '&aCurse enabled!'
+  curseDisabled: '&cCurse disabled!'
+  curseSended: '&aInstant curse sended!'

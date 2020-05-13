@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#II",
+        "#EI",
+        "/##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_bars"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}

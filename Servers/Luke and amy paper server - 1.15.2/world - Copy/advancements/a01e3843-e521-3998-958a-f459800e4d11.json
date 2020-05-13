@@ -1,0 +1,1686 @@
+{
+  "main:main/dragon_drops_elytra": {
+    "criteria": {
+      "tick": "2020-04-26 17:42:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/viking": {
+    "criteria": {
+      "diamond_axe": "2020-04-30 17:44:26 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/diamond_miner": {
+    "criteria": {
+      "diamond": "2020-04-27 11:14:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2020-04-26 17:56:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:end/portable_storage": {
+    "criteria": {
+      "shulker_box": "2020-04-27 10:39:58 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/end_milestone": {
+    "criteria": {
+      "skys_the_limit": "2020-04-26 17:44:55 +0100",
+      "portable_storage": "2020-04-27 10:39:58 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/one_with_the_forest": {
+    "criteria": {
+      "forest": "2020-04-26 17:42:42 +0100",
+      "forest_hills": "2020-04-27 10:54:06 +0100",
+      "plains": "2020-04-27 10:58:02 +0100",
+      "roofed_forest": "2020-04-27 10:58:00 +0100",
+      "birch_forest": "2020-04-27 10:59:22 +0100",
+      "birch_forest_hills": "2020-04-27 10:59:27 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/iron_man": {
+    "criteria": {
+      "iron_chestplate": "2020-04-26 17:45:57 +0100",
+      "iron_leggings": "2020-04-26 17:44:47 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2020-04-26 17:55:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2020-04-27 10:47:51 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:adventure/do_you_want_to_trade": {
+    "criteria": {
+      "village": "2020-04-26 17:48:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2020-04-26 17:54:53 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/enchanted_forest": {
+    "criteria": {
+      "flower_forest": "2020-04-26 18:13:59 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/this_is_mine_now": {
+    "criteria": {
+      "mineshaft": "2020-04-27 10:55:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2020-04-26 17:44:47 +0100",
+      "diamond_boots": "2020-04-26 17:44:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-04-26 17:54:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2020-04-26 17:44:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": true
+  },
+  "main:main/player_head_drops": {
+    "criteria": {
+      "tick": "2020-04-26 17:42:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting": {
+    "criteria": {
+      "has_gold_ore": "2020-04-27 10:34:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/fossil_fuel": {
+    "criteria": {
+      "coal": "2020-04-26 17:55:04 +0100"
+    },
+    "done": true
+  },
+  "main:main/tag": {
+    "criteria": {
+      "tick": "2020-04-26 17:42:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:redstone/root": {
+    "criteria": {
+      "redstone": "2020-04-26 18:01:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-04-29 17:11:55 +0100"
+    },
+    "done": true
+  },
+  "main:main/track_stats": {
+    "criteria": {
+      "tick": "2020-04-26 17:42:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting": {
+    "criteria": {
+      "has_iron_ore": "2020-04-26 17:54:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2020-04-26 17:59:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/seeing_red": {
+    "criteria": {
+      "redstone": "2020-04-26 18:01:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2020-04-26 18:02:37 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:building/spruce_lee": {
+    "criteria": {
+      "spruce_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:bacap/nether_milestone": {
+    "criteria": {
+      "eye_spy": "2020-04-30 19:17:27 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:potion/stayin_frosty": {
+    "criteria": {
+      "fire_resistance": "2020-05-01 17:59:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2020-04-29 16:24:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2020-04-29 16:23:14 +0100"
+    },
+    "done": true
+  },
+  "main:main/root": {
+    "criteria": {
+      "tick": "2020-04-26 17:42:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2020-04-26 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/axeman": {
+    "criteria": {
+      "diamond_axe": "2020-04-30 17:44:26 +0100"
+    },
+    "done": false
+  },
+  "main:main/ch": {
+    "criteria": {
+      "tick": "2020-04-26 17:42:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2020-04-26 17:54:53 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/rest_in_pickaxes": {
+    "criteria": {
+      "break_pickaxe": "2020-04-26 18:34:34 +0100"
+    },
+    "done": true
+  },
+  "main:main/sh": {
+    "criteria": {
+      "tick": "2020-04-26 17:42:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2020-04-26 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-04-29 17:11:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2020-04-26 18:01:45 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:animal/wooly": {
+    "criteria": {
+      "sheep": "2020-05-01 18:57:07 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:potion/a_much_more_doable_challenge": {
+    "criteria": {
+      "fire_resistance": "2020-05-01 17:59:10 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:enchanting/ultimate_enchanter": {
+    "criteria": {
+      "unbreaking3": "2020-04-26 17:44:47 +0100",
+      "protection3": "2020-04-26 17:44:47 +0100",
+      "aqua_affinity": "2020-04-26 17:44:47 +0100",
+      "fortune2": "2020-04-26 17:45:20 +0100",
+      "fire_protection3": "2020-04-26 17:44:47 +0100",
+      "vanishing_curse": "2020-04-26 17:45:57 +0100",
+      "efficiency3": "2020-04-26 17:45:20 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:enchanting/armor_for_the_masses": {
+    "criteria": {
+      "fire_protection": "2020-04-26 17:44:47 +0100",
+      "protection": "2020-04-26 17:44:47 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/iconic_merchandising_prop": {
+    "criteria": {
+      "diamond_pickaxe": "2020-04-26 17:45:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-04-29 17:11:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_sand": "2020-05-06 19:12:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-04-29 17:11:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2020-04-29 16:59:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/redstone_milestone": {
+    "criteria": {
+      "root": "2020-04-26 18:01:45 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:challenges/all_the_blocks": {
+    "criteria": {
+      "mossy_cobblestone": "2020-04-29 17:11:55 +0100",
+      "oak_trapdoor": "2020-05-06 19:45:01 +0100",
+      "sand": "2020-05-06 19:12:10 +0100",
+      "diorite": "2020-04-26 17:54:53 +0100",
+      "gravel": "2020-04-26 18:02:38 +0100",
+      "spruce_planks": "2020-04-27 10:39:50 +0100",
+      "dirt": "2020-04-26 17:43:27 +0100",
+      "cobblestone": "2020-04-26 17:54:47 +0100",
+      "redstone_block": "2020-04-27 10:47:51 +0100",
+      "white_concrete_powder": "2020-05-06 19:23:25 +0100",
+      "andesite": "2020-04-26 17:56:33 +0100",
+      "diamond_block": "2020-04-27 10:56:58 +0100",
+      "emerald_block": "2020-04-29 16:59:17 +0100",
+      "iron_ore": "2020-04-26 17:54:49 +0100",
+      "lapis_block": "2020-04-27 11:38:38 +0100",
+      "rail": "2020-04-29 16:23:14 +0100",
+      "white_concrete": "2020-05-06 19:23:16 +0100",
+      "netherrack": "2020-04-26 17:47:12 +0100",
+      "gold_ore": "2020-04-27 10:34:10 +0100",
+      "shulker_box": "2020-04-27 10:39:58 +0100",
+      "granite": "2020-04-26 18:03:18 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:building/rainbow_sand": {
+    "criteria": {
+      "white_concrete_powder": "2020-05-06 19:23:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2020-04-26 17:56:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2020-04-26 17:54:53 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:redstone/engineer": {
+    "criteria": {
+      "oak_trapdoor": "2020-05-06 19:45:01 +0100",
+      "redstone": "2020-04-26 18:01:45 +0100",
+      "redstone_block": "2020-04-27 10:47:51 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:mining/even_moar_tools": {
+    "criteria": {
+      "diamond_pickaxe": "2020-04-26 17:45:20 +0100",
+      "diamond_axe": "2020-04-26 17:44:42 +0100",
+      "diamond_shovel": "2020-04-27 10:59:24 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:mining/weve_broken_our_last_shovel": {
+    "criteria": {
+      "iron_shovel": "2020-04-27 10:59:09 +0100"
+    },
+    "done": false
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2020-04-26 17:44:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2020-04-26 17:56:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2020-05-06 19:12:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2020-04-26 18:01:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2020-04-26 17:59:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2020-04-26 17:56:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2020-04-26 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:adventure/filthy_rich": {
+    "criteria": {
+      "emeralds": "2020-04-29 16:31:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2020-04-26 17:56:33 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/gold_mine": {
+    "criteria": {
+      "mesa": "2020-04-26 17:43:08 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/statistics_milestone": {
+    "criteria": {
+      "level_up": "2020-04-27 10:59:28 +0100",
+      "the_first_night": "2020-04-26 17:51:31 +0100",
+      "root": "2020-04-26 17:51:31 +0100",
+      "spring_in_your_step": "2020-04-27 10:51:46 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2020-04-26 17:59:07 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/time_to_mine": {
+    "criteria": {
+      "diamond_pickaxe": "2020-04-26 17:45:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2020-04-30 17:44:39 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:statistics/the_first_night": {
+    "criteria": {
+      "trigger": "2020-04-26 17:51:31 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:redstone/master_engineer": {
+    "criteria": {
+      "redstone": "2020-04-26 18:14:11 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:adventure/raidin_master": {
+    "criteria": {
+      "mineshaft": "2020-04-27 10:55:27 +0100",
+      "village": "2020-04-26 17:48:14 +0100",
+      "stronghold": "2020-04-30 19:17:27 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2020-04-26 18:01:45 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/advancement_legend": {
+    "criteria": {
+      "skys_the_limit": "2020-04-26 17:44:55 +0100",
+      "suit_up": "2020-04-26 17:44:47 +0100",
+      "stone_age": "2020-04-26 17:54:47 +0100",
+      "cold_feet": "2020-04-30 20:25:07 +0100",
+      "rock_collection": "2020-04-26 18:03:18 +0100",
+      "time_to_mine": "2020-04-26 17:45:20 +0100",
+      "diamond_miner": "2020-04-27 11:14:37 +0100",
+      "root_mining": "2020-04-26 17:45:20 +0100",
+      "root_bacap": "2020-04-26 17:42:42 +0100",
+      "time_to_chop": "2020-04-26 17:44:42 +0100",
+      "pathways": "2020-04-26 17:48:18 +0100",
+      "seeing_red": "2020-04-26 18:01:45 +0100",
+      "the_sea_calls_you": "2020-04-27 11:09:45 +0100",
+      "spelunker": "2020-04-26 17:55:02 +0100",
+      "root_adventure": "2020-04-30 17:44:39 +0100",
+      "enchanted_forest": "2020-04-26 18:13:59 +0100",
+      "do_you_want_to_trade": "2020-04-26 17:48:14 +0100",
+      "spring_in_your_step": "2020-04-27 10:51:46 +0100",
+      "gold_miner": "2020-04-27 11:26:28 +0100",
+      "eye_spy": "2020-04-30 19:17:27 +0100",
+      "i_hereby_dub_thee": "2020-04-27 10:56:42 +0100",
+      "flint_miner": "2020-05-01 18:15:46 +0100",
+      "root_redstone": "2020-04-26 18:01:45 +0100",
+      "portable_storage": "2020-04-27 10:39:58 +0100",
+      "level_up": "2020-04-27 10:59:28 +0100",
+      "root_statistics": "2020-04-26 17:51:31 +0100",
+      "this_is_mine_now": "2020-04-27 10:55:27 +0100",
+      "heart_of_darkness": "2020-04-26 17:55:11 +0100",
+      "root_biomes": "2020-04-30 17:51:42 +0100",
+      "pushed_around": "2020-04-30 17:51:42 +0100",
+      "coal_miner": "2020-04-26 17:56:31 +0100",
+      "rock_bottom": "2020-04-27 10:49:02 +0100",
+      "theres_a_zombie_on_the_lawn": "2020-04-27 11:07:04 +0100",
+      "iron_miner": "2020-04-26 18:01:00 +0100",
+      "fossil_fuel": "2020-04-26 17:55:04 +0100",
+      "the_first_night": "2020-04-26 17:51:31 +0100",
+      "the_wrong_shade_of_blue": "2020-04-26 18:01:41 +0100",
+      "oh_noes": "2020-04-26 18:34:34 +0100",
+      "cover_me_with_diamonds": "2020-04-26 17:44:47 +0100",
+      "meet_the_flintstones": "2020-04-26 18:02:37 +0100",
+      "rest_in_pickaxes": "2020-04-26 18:34:34 +0100",
+      "insomniac": "2020-04-30 19:45:54 +0100",
+      "filthy_rich": "2020-04-29 16:31:37 +0100",
+      "one_with_the_forest": "2020-04-27 10:59:27 +0100",
+      "kilometre_walk": "2020-04-27 10:59:18 +0100",
+      "just_keep_swimming": "2020-04-26 17:59:07 +0100",
+      "iconic_merchandising_prop": "2020-04-26 17:45:20 +0100",
+      "diamonds": "2020-04-27 10:48:56 +0100",
+      "eeuuwww": "2020-04-29 17:31:26 +0100",
+      "gold_mine": "2020-04-26 17:43:08 +0100",
+      "fireworks_display": "2020-04-26 17:43:38 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2020-04-29 16:23:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2020-04-26 18:01:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2020-04-26 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2020-04-26 18:02:37 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:enchanting/master_enchanter": {
+    "criteria": {
+      "unbreaking": "2020-04-26 17:44:47 +0100",
+      "aqua_affinity": "2020-04-26 17:44:47 +0100",
+      "vanishing_curse": "2020-04-26 17:45:57 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_leggings": "2020-04-26 17:44:47 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/cold_feet": {
+    "criteria": {
+      "extreme_hills_with_trees": "2020-04-26 17:43:01 +0100",
+      "extreme_hills": "2020-04-26 17:42:43 +0100",
+      "redwood_taiga": "2020-04-30 20:25:07 +0100",
+      "taiga": "2020-04-30 19:16:39 +0100",
+      "redwood_taiga_hills": "2020-04-30 20:24:55 +0100",
+      "taiga_hills": "2020-04-30 19:16:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2020-04-26 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:enchanting/curses": {
+    "criteria": {
+      "vanishing_curse": "2020-04-26 17:45:57 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2020-04-27 11:38:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2020-04-26 18:01:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2020-04-26 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2020-04-26 17:59:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2020-04-30 19:17:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:enchanting/scuba_gear": {
+    "criteria": {
+      "aqua_affinity": "2020-04-26 17:44:47 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:building/pathways": {
+    "criteria": {
+      "enter_grass_path": "2020-04-26 17:48:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/rock_bottom": {
+    "criteria": {
+      "bedrock_level": "2020-04-27 10:49:02 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/explorer_of_worlds": {
+    "criteria": {
+      "mutated_plains": "2020-04-27 11:07:04 +0100",
+      "desert_hills": "2020-04-26 17:47:50 +0100",
+      "lukewarm_ocean": "2020-04-30 19:17:47 +0100",
+      "forest_hills": "2020-04-27 10:54:06 +0100",
+      "savanna": "2020-04-26 17:48:05 +0100",
+      "mutated_desert": "2020-04-26 17:47:39 +0100",
+      "mutated_forest": "2020-04-26 18:13:59 +0100",
+      "redwood_taiga_hills": "2020-04-30 20:24:55 +0100",
+      "taiga_hills": "2020-04-30 19:16:12 +0100",
+      "ocean": "2020-04-27 11:09:45 +0100",
+      "forest": "2020-04-26 17:42:42 +0100",
+      "mesa_rock": "2020-04-30 17:56:04 +0100",
+      "swampland": "2020-04-27 11:02:21 +0100",
+      "birch_forest": "2020-04-27 10:59:22 +0100",
+      "deep_ocean": "2020-04-27 11:09:46 +0100",
+      "beaches": "2020-04-30 19:17:45 +0100",
+      "extreme_hills_with_trees": "2020-04-26 17:43:01 +0100",
+      "mesa": "2020-04-26 17:43:08 +0100",
+      "plains": "2020-04-27 10:58:02 +0100",
+      "savanna_rock": "2020-04-26 18:27:39 +0100",
+      "redwood_taiga": "2020-04-30 20:25:07 +0100",
+      "taiga": "2020-04-30 19:16:39 +0100",
+      "mutated_mesa": "2020-04-30 18:39:28 +0100",
+      "birch_forest_hills": "2020-04-27 10:59:27 +0100",
+      "extreme_hills": "2020-04-26 17:42:43 +0100",
+      "roofed_forest": "2020-04-27 10:58:00 +0100",
+      "river": "2020-04-26 17:43:05 +0100",
+      "desert": "2020-04-26 17:43:02 +0100",
+      "stone_beach": "2020-04-27 11:12:02 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:challenges/all_the_items": {
+    "criteria": {
+      "diamond_boots": "2020-04-26 17:44:47 +0100",
+      "redstone": "2020-04-26 18:01:45 +0100",
+      "diamond_helmet": "2020-04-26 17:44:47 +0100",
+      "name_tag": "2020-04-27 10:56:42 +0100",
+      "iron_leggings": "2020-04-26 17:44:47 +0100",
+      "flint": "2020-04-26 18:02:37 +0100",
+      "emerald": "2020-04-29 16:24:04 +0100",
+      "diamond_axe": "2020-04-26 17:44:42 +0100",
+      "diamond_pickaxe": "2020-04-26 17:45:20 +0100",
+      "iron_chestplate": "2020-04-26 17:45:57 +0100",
+      "diamond_shovel": "2020-04-27 10:59:24 +0100",
+      "firework_rocket": "2020-04-26 17:43:38 +0100",
+      "lapis_lazuli": "2020-04-26 18:01:41 +0100",
+      "iron_shovel": "2020-04-26 17:47:06 +0100",
+      "coal": "2020-04-26 17:55:04 +0100",
+      "diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_spruce_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/kilometre_walk": {
+    "criteria": {
+      "outer_pos_z": "2020-04-27 10:59:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2020-04-26 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-04-29 17:11:55 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:building/rock_collection": {
+    "criteria": {
+      "cobblestone": "2020-04-26 17:54:47 +0100",
+      "granite": "2020-04-26 18:03:18 +0100",
+      "andesite": "2020-04-26 17:56:33 +0100",
+      "diorite": "2020-04-26 17:54:53 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:building/professor_oak": {
+    "criteria": {
+      "oak_trapdoor": "2020-05-06 19:45:01 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:mining/coal_miner": {
+    "criteria": {
+      "coal": "2020-04-26 17:56:31 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/root": {
+    "criteria": {
+      "location": "2020-04-26 17:42:42 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:building/insomniac": {
+    "criteria": {
+      "trigger": "2020-04-30 19:45:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2020-04-26 17:54:53 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:statistics/root": {
+    "criteria": {
+      "entered_nether_portal": "2020-04-26 17:51:31 +0100",
+      "diamond": "2020-04-26 17:51:31 +0100",
+      "entered_end_portal": "2020-04-26 17:51:31 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/iron_miner": {
+    "criteria": {
+      "iron": "2020-04-26 18:01:00 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/mining_milestone": {
+    "criteria": {
+      "diamonds": "2020-04-27 10:48:56 +0100",
+      "eeuuwww": "2020-04-29 17:31:26 +0100",
+      "coal_miner": "2020-04-26 17:56:31 +0100",
+      "rock_bottom": "2020-04-27 10:49:02 +0100",
+      "gold_mine": "2020-04-26 17:43:08 +0100",
+      "cover_me_with_diamonds": "2020-04-26 17:44:47 +0100",
+      "meet_the_flintstones": "2020-04-26 18:02:37 +0100",
+      "rest_in_pickaxes": "2020-04-26 18:34:34 +0100",
+      "gold_miner": "2020-04-27 11:26:28 +0100",
+      "suit_up": "2020-04-26 17:44:47 +0100",
+      "flint_miner": "2020-05-01 18:15:46 +0100",
+      "stone_age": "2020-04-26 17:54:47 +0100",
+      "iron_miner": "2020-04-26 18:01:00 +0100",
+      "fossil_fuel": "2020-04-26 17:55:04 +0100",
+      "iconic_merchandising_prop": "2020-04-26 17:45:20 +0100",
+      "seeing_red": "2020-04-26 18:01:45 +0100",
+      "the_wrong_shade_of_blue": "2020-04-26 18:01:41 +0100",
+      "this_is_mine_now": "2020-04-27 10:55:27 +0100",
+      "root": "2020-04-26 17:45:20 +0100",
+      "heart_of_darkness": "2020-04-26 17:55:11 +0100",
+      "spelunker": "2020-04-26 17:55:02 +0100",
+      "oh_noes": "2020-04-26 18:34:34 +0100",
+      "diamond_miner": "2020-04-27 11:14:37 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:mining/eeuuwww": {
+    "criteria": {
+      "cobweb": "2020-04-29 17:31:26 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:statistics/level_up": {
+    "criteria": {
+      "trigger": "2020-04-27 10:59:28 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/theres_a_zombie_on_the_lawn": {
+    "criteria": {
+      "sunflower_plains": "2020-04-27 11:07:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2020-04-26 17:47:12 +0100"
+    },
+    "done": true
+  },
+  "main:main/villager_death": {
+    "criteria": {
+      "tick": "2020-04-26 17:42:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2020-04-26 17:56:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2020-04-26 18:02:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2020-04-26 17:55:04 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/warm_feet": {
+    "criteria": {
+      "mesa_rock": "2020-04-30 17:56:04 +0100",
+      "desert_hills": "2020-04-26 17:47:50 +0100",
+      "mesa": "2020-04-26 17:43:08 +0100",
+      "savanna": "2020-04-26 17:48:05 +0100",
+      "desert": "2020-04-26 17:43:02 +0100",
+      "savanna_rock": "2020-04-26 18:27:39 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/gold_ingot": {
+    "criteria": {
+      "has_gold_ore": "2020-04-27 10:34:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "main:main/mmh": {
+    "criteria": {
+      "tick": "2020-04-26 17:42:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-04-29 17:11:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2020-04-26 17:54:53 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/biomes_milestone": {
+    "criteria": {
+      "root": "2020-04-30 17:51:42 +0100",
+      "the_sea_calls_you": "2020-04-27 11:09:45 +0100",
+      "cold_feet": "2020-04-30 20:25:07 +0100",
+      "one_with_the_forest": "2020-04-27 10:59:27 +0100",
+      "theres_a_zombie_on_the_lawn": "2020-04-27 11:07:04 +0100",
+      "pushed_around": "2020-04-30 17:51:42 +0100",
+      "enchanted_forest": "2020-04-26 18:13:59 +0100",
+      "kilometre_walk": "2020-04-27 10:59:18 +0100",
+      "just_keep_swimming": "2020-04-26 17:59:07 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2020-04-26 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/the_wrong_shade_of_blue": {
+    "criteria": {
+      "coal": "2020-04-26 18:01:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2020-04-26 17:54:53 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/wet_feet": {
+    "criteria": {
+      "beaches": "2020-04-30 19:17:45 +0100",
+      "ocean": "2020-04-27 11:09:45 +0100",
+      "lukewarm_ocean": "2020-04-30 19:17:47 +0100",
+      "river": "2020-04-26 17:43:05 +0100",
+      "deep_ocean": "2020-04-27 11:09:46 +0100",
+      "stone_beach": "2020-04-27 11:12:02 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:enchanting/complete_enchanter": {
+    "criteria": {
+      "fire_protection": "2020-04-26 17:44:47 +0100",
+      "unbreaking": "2020-04-26 17:44:47 +0100",
+      "protection": "2020-04-26 17:44:47 +0100",
+      "efficiency": "2020-04-26 17:45:20 +0100",
+      "fortune": "2020-04-26 17:45:20 +0100",
+      "aqua_affinity": "2020-04-26 17:44:47 +0100",
+      "vanishing_curse": "2020-04-26 17:45:57 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/return_from_void": {
+    "criteria": {
+      "return_from_void": "2020-04-26 17:42:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2020-04-26 18:01:45 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:building/i_dont_like_sand": {
+    "criteria": {
+      "sand": "2020-05-06 19:12:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2020-04-26 17:54:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2020-04-26 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:building/the_rainbow_you_always_wanted": {
+    "criteria": {
+      "white_concrete": "2020-05-06 19:23:16 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:bacap/adventure_milestone": {
+    "criteria": {
+      "do_you_want_to_trade": "2020-04-26 17:48:14 +0100",
+      "i_hereby_dub_thee": "2020-04-27 10:56:42 +0100",
+      "filthy_rich": "2020-04-29 16:31:37 +0100",
+      "root": "2020-04-30 17:44:39 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:mining/spelunker": {
+    "criteria": {
+      "enter_cave": "2020-04-26 17:55:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2020-04-26 18:02:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_leggings": "2020-04-26 17:44:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2020-04-26 18:01:45 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/moar_broken_tools": {
+    "criteria": {
+      "diamond_pickaxe": "2020-04-26 18:34:34 +0100",
+      "iron_shovel": "2020-04-27 10:59:09 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/iron_ingot": {
+    "criteria": {
+      "has_iron_ore": "2020-04-26 17:54:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2020-04-26 17:54:53 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/building_milestone": {
+    "criteria": {
+      "pathways": "2020-04-26 17:48:18 +0100",
+      "insomniac": "2020-04-30 19:45:54 +0100",
+      "rock_collection": "2020-04-26 18:03:18 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:mining/my_work_here_is_done": {
+    "criteria": {
+      "enter_gravel": "2020-05-01 17:52:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2020-04-26 17:56:33 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/root": {
+    "criteria": {
+      "diamond_pickaxe": "2020-04-26 17:45:20 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/overgrown": {
+    "criteria": {
+      "swampland": "2020-04-27 11:02:21 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2020-04-26 17:42:42 +0100",
+      "minecraft:mountains": "2020-04-26 17:42:43 +0100",
+      "minecraft:taiga": "2020-04-30 19:16:39 +0100",
+      "minecraft:desert_hills": "2020-04-26 17:47:50 +0100",
+      "minecraft:giant_tree_taiga": "2020-04-30 20:25:07 +0100",
+      "minecraft:taiga_hills": "2020-04-30 19:16:12 +0100",
+      "minecraft:desert": "2020-04-26 17:43:02 +0100",
+      "minecraft:birch_forest": "2020-04-27 10:59:22 +0100",
+      "minecraft:badlands": "2020-04-26 17:43:08 +0100",
+      "minecraft:savanna_plateau": "2020-04-26 18:27:39 +0100",
+      "minecraft:beach": "2020-04-30 19:17:45 +0100",
+      "minecraft:dark_forest": "2020-04-27 10:58:00 +0100",
+      "minecraft:river": "2020-04-26 17:43:05 +0100",
+      "minecraft:lukewarm_ocean": "2020-04-30 19:17:47 +0100",
+      "minecraft:birch_forest_hills": "2020-04-27 10:59:27 +0100",
+      "minecraft:wooded_mountains": "2020-04-26 17:43:01 +0100",
+      "minecraft:wooded_hills": "2020-04-27 10:54:06 +0100",
+      "minecraft:stone_shore": "2020-04-27 11:12:02 +0100",
+      "minecraft:giant_tree_taiga_hills": "2020-04-30 20:24:55 +0100",
+      "minecraft:wooded_badlands_plateau": "2020-04-30 17:56:04 +0100",
+      "minecraft:swamp": "2020-04-27 11:02:21 +0100",
+      "minecraft:savanna": "2020-04-26 17:48:05 +0100",
+      "minecraft:plains": "2020-04-27 10:58:02 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:building/concrete_evidence": {
+    "criteria": {
+      "white_concrete": "2020-05-06 19:23:16 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/fireworks_display": {
+    "criteria": {
+      "firework_rocket": "2020-04-26 17:43:38 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/root": {
+    "criteria": {
+      "killed_something": "2020-04-30 17:44:39 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/flint_miner": {
+    "criteria": {
+      "flint": "2020-05-01 18:15:46 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/heart_of_darkness": {
+    "criteria": {
+      "enter_cave": "2020-04-26 17:55:11 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/mineral_collection": {
+    "criteria": {
+      "redstone_block": "2020-04-27 10:47:51 +0100",
+      "emerald_block": "2020-04-29 16:59:17 +0100",
+      "diamond_block": "2020-04-27 10:56:58 +0100",
+      "lapis_block": "2020-04-27 11:38:38 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:statistics/spring_in_your_step": {
+    "criteria": {
+      "trigger": "2020-04-27 10:51:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2020-04-29 16:23:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/the_sea_calls_you": {
+    "criteria": {
+      "ocean": "2020-04-27 11:09:45 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/stack_all_the_blocks": {
+    "criteria": {
+      "diorite": "2020-04-27 11:00:29 +0100",
+      "gravel": "2020-05-01 17:42:17 +0100",
+      "cobblestone": "2020-04-26 18:09:34 +0100",
+      "andesite": "2020-04-27 11:00:18 +0100",
+      "iron_ore": "2020-04-26 18:01:00 +0100",
+      "netherrack": "2020-04-26 17:47:12 +0100",
+      "gold_ore": "2020-04-27 11:26:28 +0100",
+      "shulker_box": "2020-04-27 10:39:58 +0100",
+      "granite": "2020-04-27 11:06:51 +0100"
+    },
+    "done": false
+  },
+  "blazeandcave:biomes/pushed_around": {
+    "criteria": {
+      "enter_water": "2020-04-30 17:51:42 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/gold_miner": {
+    "criteria": {
+      "gold": "2020-04-27 11:26:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2020-04-26 17:59:07 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/weaponry_milestone": {
+    "criteria": {
+      "fireworks_display": "2020-04-26 17:43:38 +0100"
+    },
+    "done": false
+  },
+  "main:main/dp": {
+    "criteria": {
+      "tick": "2020-04-26 17:42:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/stack_all_the_items": {
+    "criteria": {
+      "diamond_boots": "2020-04-26 17:44:47 +0100",
+      "redstone": "2020-04-26 18:14:11 +0100",
+      "diamond_helmet": "2020-04-26 17:44:47 +0100",
+      "iron_leggings": "2020-04-26 17:44:47 +0100",
+      "flint": "2020-05-01 18:15:46 +0100",
+      "emerald": "2020-04-29 16:31:37 +0100",
+      "diamond_axe": "2020-04-26 17:44:42 +0100",
+      "diamond_pickaxe": "2020-04-26 17:45:20 +0100",
+      "iron_chestplate": "2020-04-26 17:45:57 +0100",
+      "diamond_shovel": "2020-04-27 10:59:24 +0100",
+      "firework_rocket": "2020-04-26 17:43:38 +0100",
+      "lapis_lazuli": "2020-04-26 18:09:14 +0100",
+      "iron_shovel": "2020-04-26 17:47:06 +0100",
+      "coal": "2020-04-26 17:56:31 +0100",
+      "diamond": "2020-04-27 11:14:37 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/diamond_clad": {
+    "criteria": {
+      "diamond_helmet": "2020-04-26 17:44:47 +0100",
+      "diamond_boots": "2020-04-26 17:44:47 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2020-04-26 17:59:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2020-04-26 17:56:33 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/meet_the_flintstones": {
+    "criteria": {
+      "flint": "2020-04-26 18:02:37 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/oh_noes": {
+    "criteria": {
+      "break_tool": "2020-04-26 18:34:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis": "2020-04-26 18:01:41 +0100"
+    },
+    "done": true
+  },
+  "main:main/double_shulkers": {
+    "criteria": {
+      "tick": "2020-04-26 17:42:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_stone": "2020-04-26 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2020-04-26 18:01:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-04-27 10:39:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2020-04-27 10:56:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2020-04-27 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:adventure/i_hereby_dub_thee": {
+    "criteria": {
+      "name_tag": "2020-04-27 10:56:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_stone": "2020-04-26 17:54:53 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:enchanting/fiery": {
+    "criteria": {
+      "fire_protection": "2020-04-26 17:44:47 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2020-04-26 17:56:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2020-04-26 17:56:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2020-04-26 17:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-04-29 17:11:55 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/time_to_chop": {
+    "criteria": {
+      "diamond_axe": "2020-04-26 17:44:42 +0100"
+    },
+    "done": true
+  },
+  "main:main/track_raw_stats": {
+    "criteria": {
+      "tick": "2020-04-26 17:42:43 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/just_keep_swimming": {
+    "criteria": {
+      "enter_water": "2020-04-26 17:59:07 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 2230
+}

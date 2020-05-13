@@ -1,0 +1,135 @@
+================================
+System Information
+================================
+
+Java: Oracle Corporation 11.0.1 (http://java.oracle.com/)
+Operating System: Windows 10 10.0 (amd64)
+Available Processors: 8
+Free Memory: 289 MB
+Max Memory: 4074 MB
+Total Memory: 1049 MB
+System Load Average: -1.0
+Java Uptime: 19 minutes
+Startup: Input Arguments: 
+Virtual Machine: 
+	Name: Java HotSpot(TM) 64-Bit Server VM
+	Vendor: Oracle Corporation
+	Version: Oracle Corporation
+Specification: 
+	Name: Java Virtual Machine Specification
+	Vendor: Oracle Corporation
+	Version: 11
+Class Loader: 
+	Loaded Class Count: 19402
+	Total Loaded Class Count: 19471
+	Unloaded Class Count: 69
+Garbage Collectors: 
+	G1 Young Generation: 
+		Collection Count: 102
+		Collection Time: 1434ms
+	G1 Old Generation: 
+		Collection Count: 0
+		Collection Time: 0ms
+Threads: 
+	#2 Reference Handler: RUNNABLE
+	#3 Finalizer: WAITING
+	#4 Signal Dispatcher: RUNNABLE
+	#5 Attach Listener: RUNNABLE
+	#12 Common-Cleaner: TIMED_WAITING
+	#14 Log4j2-TF-1-AsyncLogger[AsyncContext@6e5e91e4]-1: TIMED_WAITING
+	#23 Snooper Timer: WAITING
+	#26 Server Infinisleeper: TIMED_WAITING
+	#27 Java2D Disposer: WAITING
+	#28 AWT-Shutdown: WAITING
+	#29 AWT-Windows: RUNNABLE
+	#31 AWT-EventQueue-0: WAITING
+	#33 TimerQueue: TIMED_WAITING
+	#32 Thread-2: WAITING
+	#24 Server thread: RUNNABLE
+	#35 DestroyJavaVM: RUNNABLE
+	#41 Paper Watchdog Thread: TIMED_WAITING
+	#42 Paper Async Chunk Task Thread #0: WAITING
+	#43 Paper Async Chunk Task Thread #1: WAITING
+	#44 Paper Async Chunk Task Thread #2: WAITING
+	#45 Paper Async Chunk Task Thread #3: WAITING
+	#46 Paper Async Chunk Task Thread #4: WAITING
+	#47 Paper Async Chunk Task Thread #5: WAITING
+	#48 Paper Async Chunk Task Thread #6: WAITING
+	#49 Paper Async Chunk Urgent Task Thread: WAITING
+	#50 Timer-0: TIMED_WAITING
+	#51 ObjectCleanerThread: TIMED_WAITING
+	#52 Netty Server IO #0: RUNNABLE
+	#53 WorldEdit Session Manager: TIMED_WAITING
+	#54 Timer-1: TIMED_WAITING
+	#55 Paper Async Task Handler Thread - 0: WAITING
+	#56 Paper RegionFile IO Thread: WAITING
+	#66 ProtocolLib-StructureCompiler 0: WAITING
+	#68 pool-18-thread-1: TIMED_WAITING
+	#70 Craft Async Scheduler Management Thread: WAITING
+	#86 Netty Server IO #1: RUNNABLE
+	#88 ForkJoinPool.commonPool-worker-3: WAITING
+	#90 pool-17-thread-1: WAITING
+	#94 Netty Server IO #2: RUNNABLE
+	#96 Server-Worker-7: WAITING
+	#126 Netty Server IO #3: RUNNABLE
+	#128 Server-Worker-10: TIMED_WAITING
+	#129 Server-Worker-11: WAITING
+	#194 Server-Worker-12: TIMED_WAITING
+	#196 Server-Worker-14: TIMED_WAITING
+	#195 Server-Worker-13: TIMED_WAITING
+	#198 Craft Scheduler Thread - 97: TIMED_WAITING
+	#199 Craft Scheduler Thread - 98: TIMED_WAITING
+	#200 Craft Scheduler Thread - 99: TIMED_WAITING
+	#201 Craft Scheduler Thread - 100: TIMED_WAITING
+
+================================
+WorldEdit Configuration
+================================
+
+Configuration: 
+	noOpPermissions: false
+	commandBlockSupport: false
+	profile: false
+	traceUnflushedSessions: false
+	disallowedBlocks: [minecraft:yellow_bed, minecraft:lever, minecraft:redstone_torch, minecraft:tnt, minecraft:moving_piston, minecraft:gray_bed, minecraft:light_blue_bed, minecraft:acacia_sapling, minecraft:cyan_bed, minecraft:comparator, minecraft:grass, minecraft:torch, minecraft:oak_button, minecraft:black_bed, minecraft:sunflower, minecraft:fire, minecraft:magenta_bed, minecraft:dark_oak_sapling:, minecraft:melon_stem, minecraft:oak_sapling, minecraft:spruce_sapling, minecraft:powered_rail, minecraft:carrots, minecraft:poppy, minecraft:jungle_button, minecraft:red_bed, minecraft:jungle_sapling, minecraft:brown_bed, minecraft:rail, minecraft:birch_sapling, minecraft:dead_bush, minecraft:acacia_button, minecraft:lime_bed, minecraft:bedrock, minecraft:wheat, minecraft:green_bed, minecraft:rose_bush, minecraft:redstone_wire, minecraft:stone_button, minecraft:beetroots, minecraft:blue_bed, minecraft:sugar_cane, minecraft:red_mushroom, minecraft:orange_bed, minecraft:repeater, minecraft:pumpkin_stem, minecraft:detector_rail, minecraft:piston_head, minecraft:birch_button, minecraft:dark_oak_button, minecraft:spruce_button, minecraft:redstone_wall_torch, minecraft:pink_bed, minecraft:potatoes, minecraft:purple_bed, minecraft:brown_mushroom, minecraft:cactus, minecraft:light_gray_bed, minecraft:dandelion, minecraft:white_bed]
+	defaultChangeLimit: -1
+	maxChangeLimit: -1
+	defaultMaxPolygonalPoints: -1
+	maxPolygonalPoints: 20
+	defaultMaxPolyhedronPoints: -1
+	maxPolyhedronPoints: 20
+	shellSaveType: null
+	snapshotsConfigured: false
+	snapshotRepo: null
+	snapshotDatabase: null
+	maxRadius: -1
+	maxSuperPickaxeSize: 5
+	maxBrushRadius: 5
+	logCommands: false
+	logFile: worldedit.log
+	logFormat: [%1$tY-%1$tm-%1$td %1$tH:%1$tM:%1$tS %4$s]: %5$s%6$s%n
+	registerHelp: true
+	wandItem: minecraft:wooden_axe
+	superPickaxeDrop: true
+	superPickaxeManyDrop: false
+	useInventory: true
+	useInventoryOverride: false
+	useInventoryCreativeOverride: false
+	navigationUseGlass: true
+	navigationWand: minecraft:compass
+	navigationWandMaxDistance: 100
+	scriptTimeout: 3000
+	calculationTimeout: 100
+	maxCalculationTimeout: 300
+	allowedDataCycleBlocks: []
+	saveDir: schematics
+	scriptsDir: craftscripts
+	showHelpInfo: true
+	butcherDefaultRadius: -1
+	butcherMaxRadius: -1
+	allowSymlinks: false
+	serverSideCUI: true
+	extendedYLimit: false
+	defaultLocaleName: default
+	defaultLocale: en_GB
+

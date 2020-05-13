@@ -1,0 +1,41 @@
+pvp:
+  loadouts:
+    default: {}
+  reward-scheme: standard
+  rewards: {}
+  sfloorpos:
+    '2':
+      x: -246.0
+      y: 71.0
+      z: 371.0
+      world: world
+    '1':
+      x: -246.0
+      y: 70.0
+      z: 371.0
+      world: world
+  type: MULTIPLAYER
+  flags: []
+  startpos:
+    '0':
+      x: -321.3868781059828
+      y: 84.0
+      z: 369.81016565070615
+      world: world
+      yaw: -122.725464
+      pitch: 1.9455032
+    '1':
+      x: -304.41120918556896
+      y: 72.0
+      z: 377.04631664356
+      world: world
+      yaw: -190.08575
+      pitch: 6.3226714
+    '2':
+      x: -248.46459664385821
+      y: 71.0
+      z: 366.5287849969767
+      world: world
+      yaw: -28.374207
+      pitch: 20.183695
+  scoreboards: {}

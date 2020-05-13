@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "bd346dd5-ac1c-427d-87e8-73bdd4bf3e13",
+    "name": "Player",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5a732839-5da3-3938-885d-2681d24ef149",
+    "name": "JeremyTrump",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

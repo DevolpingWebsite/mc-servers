@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#N#",
+        "NNN",
+        "#N#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_torch"
+        },
+        "N": {
+            "item": "minecraft:nether_wart"
+        }
+    },
+    "result": {
+        "item": "minecraft:gunpowder",
+        "count": 4
+    }
+}

@@ -1,0 +1,38 @@
+game2:
+  loadouts:
+    default: {}
+  maxheight: 90
+  maxradius: 40
+  treasurehuntwait: 3025
+  mintreasure: 1
+  reward-scheme: standard
+  rewards: {}
+  reward:
+    '0':
+      type: ITEM
+      rarity: VERY_RARE
+      data:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: LEGACY_DIAMOND
+  blockplace: true
+  type: GLOBAL
+  gamemode: SURVIVAL
+  lives: 2
+  saveCheckpoints: true
+  scoretype: treasure_hunt
+  latejoin: true
+  flags: []
+  blockbreak: true
+  enabled: true
+  startpos:
+    '0':
+      x: -315.134766096471
+      y: 67.0
+      z: 416.48871924402715
+      world: world
+      yaw: 9.727692
+      pitch: 38.42177
+  timer: 30
+  usepermissions: true
+  scoreboards: {}

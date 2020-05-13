@@ -1,0 +1,202 @@
+[20:23:19] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:23:19] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:23:19] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:23:19] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:23:19] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:23:20] [Server thread/INFO]: Starting minecraft server version 20w07a
+[20:23:20] [Server thread/INFO]: Loading properties
+[20:23:20] [Server thread/INFO]: Default game type: SURVIVAL
+[20:23:20] [Server thread/INFO]: Generating keypair
+[20:23:20] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at wg$2.run(SourceFile:110) [server.jar:?]
+[20:23:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:23:20] [Server thread/INFO]: Using default channel type
+[20:23:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:23:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:23:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:23:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:23:22] [Server thread/INFO]: Preparing level "world"
+[20:23:22] [Server thread/WARN]: Couldn't get pack info for: yj: 'pack.mcmeta' in ResourcePack '.\world\datapacks\BlazeandCaves Advancements Pack 1.9.4.zip'
+[20:23:22] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, bac_advancements, coordinates hud v1.1.1.zip, double shulker shells v1.2.0.zip, dragon drops v1.2.0.zip, durability ping v1.1.0.zip, more mob heads v2.3.0.zip, player head drops v1.0.0.zip, tag v2.0.0.zip, track raw statistics v1.2.0.zip, track statistics v1.0.1.zip, villager death messages v1.0.0.zip, datapack
+[20:23:26] [Server thread/INFO]: Loaded 6 recipes
+[20:23:26] [Server thread/WARN]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[20:23:26] [Server thread/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[20:23:27] [Server thread/INFO]: Loaded 799 custom command functions
+[20:23:27] [Server thread/INFO]: Loaded 1579 advancements
+[20:23:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:23:29] [Server thread/INFO]: Preparing spawn area: 0%
+[20:23:29] [Server thread/INFO]: Preparing spawn area: 0%
+[20:23:29] [Server thread/INFO]: Preparing spawn area: 0%
+[20:23:29] [Server thread/INFO]: Preparing spawn area: 0%
+[20:23:29] [Server thread/INFO]: Preparing spawn area: 0%
+[20:23:30] [Server thread/INFO]: Time elapsed: 2375 ms
+[20:23:30] [Server thread/INFO]: Done (7.773s)! For help, type "help"
+[20:23:41] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/composter' in progress file .\world\advancements\5a732839-5da3-3938-885d-2681d24ef149.json - it doesn't exist anymore?
+[20:23:42] [Server thread/INFO]: JeremyTrump[/127.0.0.1:54888] logged in with entity id 96 at (-96.99293357157079, 106.0, 40.76249998807907)
+[20:23:42] [Server thread/INFO]: JeremyTrump joined the game
+[20:24:38] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/composter' in progress file .\world\advancements\24bf96cb-abbe-3482-a333-a318d32a7b21.json - it doesn't exist anymore?
+[20:24:39] [Server thread/INFO]: Alex5amilton[/0:0:0:0:0:0:0:1:54896] logged in with entity id 221 at (98.99059108499137, 11.0, -332.5)
+[20:24:39] [Server thread/INFO]: Alex5amilton joined the game
+[20:25:19] [Server thread/INFO]: Made JeremyTrump a server operator
+[20:25:23] [Server thread/INFO]: [JeremyTrump: Made Alex5amilton a server operator]
+[20:25:34] [Server thread/INFO]: [Alex5amilton: Triggered [toggle tag cooldown]]
+[20:25:57] [Server thread/INFO]: Alex5amilton has made the advancement [Diamonds!]
+[20:26:04] [Server thread/INFO]: [Alex5amilton: Teleported Alex5amilton to JeremyTrump]
+[20:27:18] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:27:18] [Server thread/INFO]: JeremyTrump left the game
+[20:27:28] [Server thread/INFO]: Alex5amilton has reached the goal [Iron Miner]
+[20:27:30] [Server thread/INFO]: JeremyTrump[/127.0.0.1:54916] logged in with entity id 468 at (-106.236083984375, 79.525, -1.127197265625)
+[20:27:30] [Server thread/INFO]: JeremyTrump joined the game
+[20:28:19] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:28:19] [Server thread/INFO]: JeremyTrump left the game
+[20:28:27] [Server thread/INFO]: JeremyTrump[/127.0.0.1:54926] logged in with entity id 510 at (-105.6982421875, 79.525, -0.6982421875)
+[20:28:27] [Server thread/INFO]: JeremyTrump joined the game
+[20:28:31] [Server thread/INFO]: Alex5amilton has reached the goal [Gold Miner]
+[20:29:10] [Server thread/INFO]: Alex5amilton has made the advancement [Stationary Storage]
+[20:29:32] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:29:32] [Server thread/INFO]: JeremyTrump left the game
+[20:29:53] [Server thread/INFO]: JeremyTrump[/127.0.0.1:54938] logged in with entity id 591 at (-105.25292866319444, 79.525, -1.283588168402778)
+[20:29:53] [Server thread/INFO]: JeremyTrump joined the game
+[20:30:31] [Server thread/INFO]: [JeremyTrump: Reloading!]
+[20:30:31] [Server thread/WARN]: Couldn't get pack info for: yj: 'pack.mcmeta' in ResourcePack '.\world\datapacks\BlazeandCaves Advancements Pack 1.9.4.zip'
+[20:30:31] [Server thread/WARN]: Couldn't get pack info for: yj: 'pack.mcmeta' in ResourcePack '.\world\datapacks\VanillaTweaks_d502815_UNZIP_ME.zip'
+[20:30:31] [Server thread/INFO]: Found new data pack file/sethome v1.3.0.zip, loading it automatically
+[20:30:31] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, bac_advancements, coordinates hud v1.1.1.zip, double shulker shells v1.2.0.zip, dragon drops v1.2.0.zip, durability ping v1.1.0.zip, more mob heads v2.3.0.zip, player head drops v1.0.0.zip, tag v2.0.0.zip, track raw statistics v1.2.0.zip, track statistics v1.0.1.zip, villager death messages v1.0.0.zip, datapack, sethome v1.3.0.zip
+[20:30:32] [Server thread/INFO]: Loaded 6 recipes
+[20:30:32] [Server thread/WARN]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[20:30:32] [Server thread/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[20:30:33] [Server thread/INFO]: Loaded 811 custom command functions
+[20:30:33] [Server thread/INFO]: Loaded 1580 advancements
+[20:30:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3057ms or 61 ticks behind
+[20:30:39] [Server thread/INFO]: JeremyTrump has reached the goal [Iron Miner]
+[20:31:07] [Server thread/WARN]: JeremyTrump moved wrongly!
+[20:31:15] [Server thread/WARN]: JeremyTrump moved wrongly!
+[20:32:15] [Server thread/INFO]: Alex5amilton lost connection: Disconnected
+[20:32:15] [Server thread/INFO]: Alex5amilton left the game
+[20:32:21] [Server thread/INFO]: Alex5amilton[/0:0:0:0:0:0:0:1:54976] logged in with entity id 708 at (-106.3017578125, 79.525, -1.3017578125)
+[20:32:21] [Server thread/INFO]: Alex5amilton joined the game
+[20:32:48] [Server thread/WARN]: JeremyTrump moved wrongly!
+[20:32:56] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:32:56] [Server thread/INFO]: JeremyTrump left the game
+[20:33:03] [Server thread/INFO]: JeremyTrump[/127.0.0.1:54987] logged in with entity id 733 at (-105.6982421875, 79.525, -0.7057811776948824)
+[20:33:03] [Server thread/INFO]: JeremyTrump joined the game
+[20:33:06] [Server thread/INFO]: Alex5amilton has made the advancement [Iconic Merchandising Prop]
+[20:33:06] [Server thread/INFO]: Alex5amilton has reached the goal [Diamond Miner]
+[20:33:56] [Server thread/INFO]: Alex5amilton lost connection: Disconnected
+[20:33:56] [Server thread/INFO]: Alex5amilton left the game
+[20:35:30] [Server thread/INFO]: JeremyTrump has made the advancement [Ice Bucket Challenge]
+[20:36:53] [Server thread/INFO]: [JeremyTrump: Gave 1 [Ender Pearl] to JeremyTrump]
+[20:37:16] [Server thread/INFO]: Alex5amilton[/0:0:0:0:0:0:0:1:55003] logged in with entity id 1004 at (-104.6788922988882, 79.0, 1.300000011920929)
+[20:37:16] [Server thread/INFO]: Alex5amilton joined the game
+[20:37:28] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:37:28] [Server thread/INFO]: JeremyTrump left the game
+[20:37:37] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55014] logged in with entity id 1011 at (-105.84423828125, 79.525, -1.1650390625)
+[20:37:37] [Server thread/INFO]: JeremyTrump joined the game
+[20:37:58] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:37:58] [Server thread/INFO]: JeremyTrump left the game
+[20:38:04] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55023] logged in with entity id 1040 at (-105.84423828125, 79.525, -1.1650390625)
+[20:38:04] [Server thread/INFO]: JeremyTrump joined the game
+[20:38:07] [Server thread/WARN]: JeremyTrump moved wrongly!
+[20:38:26] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:38:26] [Server thread/INFO]: JeremyTrump left the game
+[20:38:32] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55032] logged in with entity id 1064 at (-105.84423828125, 79.525, -1.1650390625)
+[20:38:32] [Server thread/INFO]: JeremyTrump joined the game
+[20:38:53] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:38:53] [Server thread/INFO]: JeremyTrump left the game
+[20:38:58] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55042] logged in with entity id 1081 at (-105.84423828125, 79.525, -1.1650390625)
+[20:38:58] [Server thread/INFO]: JeremyTrump joined the game
+[20:40:23] [Server thread/INFO]: Alex5amilton has reached the goal [Enderman Destroyer]
+[20:40:33] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:40:33] [Server thread/INFO]: JeremyTrump left the game
+[20:40:38] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55057] logged in with entity id 1157 at (-105.84423828125, 79.525, -1.1650390625)
+[20:40:38] [Server thread/INFO]: JeremyTrump joined the game
+[20:40:41] [Server thread/WARN]: JeremyTrump moved wrongly!
+[20:41:14] [Server thread/INFO]: Alex5amilton lost connection: Disconnected
+[20:41:14] [Server thread/INFO]: Alex5amilton left the game
+[20:41:34] [Server thread/INFO]: Alex5amilton[/0:0:0:0:0:0:0:1:55065] logged in with entity id 1206 at (-106.17972191884172, 79.0, 4.793267810446384)
+[20:41:34] [Server thread/INFO]: Alex5amilton joined the game
+[20:41:59] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:41:59] [Server thread/INFO]: JeremyTrump left the game
+[20:42:09] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55079] logged in with entity id 1228 at (-106.3017578125, 79.525, -1.3017578125)
+[20:42:09] [Server thread/INFO]: JeremyTrump joined the game
+[20:42:21] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:42:21] [Server thread/INFO]: JeremyTrump left the game
+[20:42:29] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55088] logged in with entity id 1247 at (-106.3017578125, 79.525, -1.3017578125)
+[20:42:29] [Server thread/INFO]: JeremyTrump joined the game
+[20:42:51] [Server thread/WARN]: JeremyTrump moved wrongly!
+[20:43:33] [Server thread/WARN]: JeremyTrump moved too quickly! 0.05854729454443941,5.6067073521541175,-16.506187512092858
+[20:43:44] [Server thread/INFO]: [JeremyTrump: Triggered [go to home]]
+[20:44:02] [Server thread/INFO]: JeremyTrump has made the advancement [Blistering Barnacles!]
+[20:44:20] [Server thread/INFO]: [JeremyTrump: Teleported 2 entities to Alex5amilton]
+[20:44:20] [Server thread/WARN]: JeremyTrump moved too quickly! -228.45890042516822,-1.0,9.182900599373626
+[20:44:20] [Server thread/WARN]: JeremyTrump moved too quickly! -228.45890042516822,-1.0,9.182900599373626
+[20:44:20] [Server thread/WARN]: JeremyTrump moved too quickly! -228.45890042516822,-1.0,9.182900599373626
+[20:44:27] [Server thread/INFO]: [JeremyTrump: Triggered [sethome]]
+[20:44:46] [Server thread/WARN]: JeremyTrump moved wrongly!
+[20:45:04] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:45:04] [Server thread/INFO]: JeremyTrump left the game
+[20:45:12] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55109] logged in with entity id 1673 at (-106.3017578125, 79.525, -1.3017578125)
+[20:45:12] [Server thread/INFO]: JeremyTrump joined the game
+[20:45:23] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:45:23] [Server thread/INFO]: JeremyTrump left the game
+[20:45:30] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55118] logged in with entity id 1682 at (-106.3017578125, 79.525, -1.3017578125)
+[20:45:30] [Server thread/INFO]: JeremyTrump joined the game
+[20:45:51] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:45:51] [Server thread/INFO]: JeremyTrump left the game
+[20:45:58] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55129] logged in with entity id 1712 at (-106.3017578125, 79.525, -1.3017578125)
+[20:45:58] [Server thread/INFO]: JeremyTrump joined the game
+[20:46:10] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:46:10] [Server thread/INFO]: JeremyTrump left the game
+[20:46:15] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55137] logged in with entity id 1729 at (-106.3017578125, 79.525, -1.3017578125)
+[20:46:15] [Server thread/INFO]: JeremyTrump joined the game
+[20:46:20] [Server thread/WARN]: JeremyTrump moved wrongly!
+[20:47:37] [Server thread/INFO]: [JeremyTrump: Teleported 2 entities to Alex5amilton]
+[20:47:37] [Server thread/WARN]: JeremyTrump moved too quickly! -7.201626249396469,-21.0,-45.7040924500913
+[20:47:43] [Server thread/WARN]: JeremyTrump moved wrongly!
+[20:47:50] [Server thread/INFO]: JeremyTrump has reached the goal [Diamond Miner]
+[20:48:16] [Server thread/INFO]: JeremyTrump has made the advancement [Cover Me With Diamonds]
+[20:48:52] [Server thread/INFO]: JeremyTrump has reached the goal [Enchanter]
+[20:49:20] [Server thread/INFO]: JeremyTrump has made the advancement [Librarian]
+[20:50:44] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:50:44] [Server thread/INFO]: JeremyTrump left the game
+[20:50:52] [Server thread/INFO]: Alex5amilton has made the advancement [Librarian]
+[20:50:55] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55164] logged in with entity id 1955 at (-105.831298828125, 79.525, -1.1875)
+[20:50:55] [Server thread/INFO]: JeremyTrump joined the game
+[20:51:01] [Server thread/WARN]: JeremyTrump moved wrongly!
+[20:51:17] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:51:17] [Server thread/INFO]: JeremyTrump left the game
+[20:51:26] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55174] logged in with entity id 1988 at (-105.6982421875, 79.525, -1.1135857208653117)
+[20:51:26] [Server thread/INFO]: JeremyTrump joined the game
+[20:52:28] [Server thread/INFO]: JeremyTrump lost connection: Disconnected
+[20:52:28] [Server thread/INFO]: JeremyTrump left the game
+[20:52:35] [Server thread/INFO]: JeremyTrump[/127.0.0.1:55184] logged in with entity id 2043 at (-105.6982421875, 79.525, -1.3017578125)
+[20:52:35] [Server thread/INFO]: JeremyTrump joined the game
+[20:53:00] [Server thread/WARN]: JeremyTrump moved wrongly!
+[20:54:37] [Server thread/INFO]: [JeremyTrump: Gave 20 [Bookshelf] to 2]
+[20:56:11] [Server thread/INFO]: [JeremyTrump: Stopping the server]
+[20:56:11] [Server thread/INFO]: Stopping server
+[20:56:11] [Server thread/INFO]: Saving players
+[20:56:11] [Server thread/INFO]: Alex5amilton lost connection: Internal Exception: java.lang.StackOverflowError
+[20:56:11] [Server thread/INFO]: Alex5amilton left the game
+[20:56:11] [Server thread/INFO]: Saving worlds
+[20:56:11] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[20:56:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:56:11] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[20:56:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:56:12] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[20:56:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:56:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:56:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:56:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

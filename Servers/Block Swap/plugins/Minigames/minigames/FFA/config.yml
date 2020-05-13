@@ -1,0 +1,15 @@
+FFA:
+  loadouts:
+    default: {}
+  reward-scheme: standard
+  rewards: {}
+  flags: []
+  startpos:
+    '0':
+      x: -321.64893641180123
+      y: 84.0
+      z: 377.37127460099964
+      world: world
+      yaw: -177.6836
+      pitch: 0.48644033
+  scoreboards: {}

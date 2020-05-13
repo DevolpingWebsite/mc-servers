@@ -1,0 +1,91 @@
+CubCustomDrops:
+  lastPage:
+    key:
+      '0': 5a732839-5da3-3938-885d-2681d24ef149
+    get:
+      '0': 1
+  mobNames:
+    key:
+      '0': §aVillager
+      '1': §aSheep
+      '2': §aCow
+    get:
+      '0':
+        Name: §aVillager
+      '1':
+        Name: §aSheep
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: BONE
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: &id001
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 10000
+            WorldOverride: false
+      '2':
+        Name: §aCow
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: BONE
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 10000
+            WorldOverride: false
+  editedBlocks:
+    key:
+      '0': AZURE_BLUET
+    get:
+      '0':
+        Block: AZURE_BLUET
+        VanillaDrops:
+          '0': world
+          '1': world_nether
+          '2': world_the_end
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: WHITE_DYE
+            SpawnerDrop: true
+            NaturalDrop: true
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 255
+              GREEN: 255
+            DropChance: 10000
+            WorldOverride: false
+  globalSettings:
+    LootingMultiplier: false
+    LootingAll: true
+    LootingM: 35
+    LootingA: 30
+    FortuneMultiplier: false
+    FortuneAll: true
+    FortuneM: 15
+    FortuneA: 10
+    GlobalWorlds:
+      '0': world
+      '1': world_nether
+      '2': world_the_end
+    LoadedOnce: true
+  afkFarm: false

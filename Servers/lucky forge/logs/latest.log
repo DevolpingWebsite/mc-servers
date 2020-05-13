@@ -1,0 +1,119 @@
+[22Apr2020 18:26:45.381] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.1.30, --fml.mcpVersion, 20200307.202953, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge]
+[22Apr2020 18:26:45.385] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 11.0.1 by Oracle Corporation
+[22Apr2020 18:26:45.788] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[22Apr2020 18:26:45.987] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file Mod File: C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\fabric-api-0.5.1%2Bbuild.294-1.15.jar is missing mods.toml file
+[22Apr2020 18:26:45.987] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: File C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\mods\fabric-api-0.5.1%2Bbuild.294-1.15.jar has been ignored - it is invalid
+[22Apr2020 18:26:46.194] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[22Apr2020 18:26:46.292] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[22Apr2020 18:26:46.300] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[22Apr2020 18:26:47.434] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[22Apr2020 18:26:56.766] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Apr2020 18:26:56.768] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2020 18:26:56.769] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2020 18:26:56.771] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Apr2020 18:26:56.773] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2020 18:26:57.478] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[22Apr2020 18:26:57.506] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:105) [?:?]
+[22Apr2020 18:26:58.429] [modloading-worker-5/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.30, for MC 1.15.2 with MCP 20200307.202953
+[22Apr2020 18:26:58.430] [modloading-worker-5/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.30 Initialized
+[22Apr2020 18:26:58.890] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lucky_potion
+[22Apr2020 18:26:58.892] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lucky_projectile
+[22Apr2020 18:26:59.120] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\walto\Desktop\different servers\Templates\Servers\lucky forge\config\journeymap-common.toml is not correct. Correcting
+[22Apr2020 18:26:59.121] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to SimpleCommentedConfig:{}
+[22Apr2020 18:26:59.122] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to true
+[22Apr2020 18:26:59.122] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to [mysticdrew, 12341234132]
+[22Apr2020 18:26:59.124] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[22Apr2020 18:26:59.273] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.1.0;48cc31c) is loaded
+[22Apr2020 18:26:59.432] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22Apr2020 18:27:00.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.30 Target: 31.1.47
+[22Apr2020 18:27:00.435] [modloading-worker-3/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[22Apr2020 18:27:00.781] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 1 jobs
+[22Apr2020 18:27:00.800] [Server thread/INFO] [journeymap/]: Initializing Packet Registry
+[22Apr2020 18:27:00.829] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.044
+[22Apr2020 18:27:00.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Apr2020 18:27:00.893] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Apr2020 18:27:00.893] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[22Apr2020 18:27:01.030] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Apr2020 18:27:01.054] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[22Apr2020 18:27:01.620] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22Apr2020 18:27:01.620] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[22Apr2020 18:27:01.621] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22Apr2020 18:27:01.621] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[22Apr2020 18:27:02.101] [Server thread/WARN] [net.minecraftforge.fml.server.ServerModLoader/LOADING]: Mods loaded with 1 warnings
+[22Apr2020 18:27:02.102] [Server thread/WARN] [net.minecraftforge.fml.server.ServerModLoader/LOADING]: File fabric-api-0.5.1%2Bbuild.294-1.15.jar is a Fabric mod and cannot be loaded
+[22Apr2020 18:27:02.202] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Apr2020 18:27:02.540] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.1.30-universal.jar, jei-1.15.2-6.0.0.3.jar, journeymap-1.15.2-5.7.0beta1.jar, luckyblock-1.15.2-1.jar, tlskincape1.15.2-1.11.jar, worldedit-forge-mc1.15.2-7.1.0.jar
+[22Apr2020 18:27:03.268] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[22Apr2020 18:27:03.844] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[22Apr2020 18:27:04.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Apr2020 18:27:05.432] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Apr2020 18:27:05.432] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Apr2020 18:27:05.432] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Apr2020 18:27:05.728] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 25%
+[22Apr2020 18:27:07.600] [Server-Worker-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Apr2020 18:27:07.601] [Server-Worker-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Apr2020 18:27:07.606] [Server-Worker-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Apr2020 18:27:07.696] [Server-Worker-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Apr2020 18:27:08.201] [Server-Worker-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Apr2020 18:27:08.699] [Server-Worker-7/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Apr2020 18:27:09.197] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
+[22Apr2020 18:27:09.457] [Server-Worker-6/INFO] [STDOUT/]: [mod.lucky.drop.func.DropProcessor:processRandomDrop:136]: Chosen Lucky Block Drop: type=block,ID=lucky:lucky_block@chance=600
+[22Apr2020 18:27:09.699] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[22Apr2020 18:27:10.197] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[22Apr2020 18:27:10.529] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 6333 ms
+[22Apr2020 18:27:10.530] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.412s)! For help, type "help"
+[22Apr2020 18:27:11.506] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@286aa495]
+[22Apr2020 18:27:11.983] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[22Apr2020 18:27:12.138] [Server thread/INFO] [journeymap/]: global (FirstLoaded) Setting config file to version "5.7.0dev": journeymap.server.global.config
+[22Apr2020 18:27:12.139] [Server thread/INFO] [journeymap/]: global (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.global.config
+[22Apr2020 18:27:12.168] [Server thread/INFO] [journeymap/]: default (FirstLoaded) Setting config file to version "5.7.0dev": journeymap.server.default.config
+[22Apr2020 18:27:12.168] [Server thread/INFO] [journeymap/]: default (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.default.config
+[22Apr2020 18:27:12.173] [Server thread/INFO] [journeymap/]: dim-1 (Initialized) Setting config file to version "5.7.0dev": journeymap.server.dim-1.config
+[22Apr2020 18:27:12.174] [Server thread/INFO] [journeymap/]: dim-1 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim-1.config
+[22Apr2020 18:27:12.182] [Server thread/INFO] [journeymap/]: dim0 (Initialized) Setting config file to version "5.7.0dev": journeymap.server.dim0.config
+[22Apr2020 18:27:12.183] [Server thread/INFO] [journeymap/]: dim0 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim0.config
+[22Apr2020 18:27:12.187] [Server thread/INFO] [journeymap/]: dim1 (Initialized) Setting config file to version "5.7.0dev": journeymap.server.dim1.config
+[22Apr2020 18:27:12.188] [Server thread/INFO] [journeymap/]: dim1 (Valid) Creating config file: .\journeymap\server\5.7\journeymap.server.dim1.config
+[22Apr2020 18:27:12.306] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Apr2020 18:27:12.308] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Apr2020 18:27:56.598] [Netty Server IO #3/INFO] [journeymap/]: Dev Mode?
+[22Apr2020 18:27:56.599] [Netty Server IO #3/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [lucky:main_channel] rejected their client side version number
+[22Apr2020 18:27:56.600] [Netty Server IO #3/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[22Apr2020 18:27:56.642] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@774b916e[id=<null>,name=JeremyTrump,properties={},legacy=false] (/127.0.0.1:59176) lost connection: Connection closed - mismatched mod channel list
+[22Apr2020 18:33:53.261] [Netty Server IO #6/INFO] [journeymap/]: Dev Mode?
+[22Apr2020 18:33:54.560] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: JeremyTrump[/127.0.0.1:59410] logged in with entity id 203 at (160.5, 65.0, -52.5)
+[22Apr2020 18:33:54.600] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeremyTrump joined the game
+[22Apr2020 18:33:54.601] [Netty Server IO #6/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@290a93c9 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[22Apr2020 18:33:54.601] [Netty Server IO #6/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@2060535a (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[22Apr2020 18:35:02.159] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made JeremyTrump a server operator
+[22Apr2020 18:35:02.162] [Netty Server IO #6/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@290a93c9 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[22Apr2020 18:35:02.163] [Netty Server IO #6/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@2060535a (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[22Apr2020 18:35:06.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown command
+[22Apr2020 18:35:06.246] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: h<--[HERE]
+[22Apr2020 18:35:18.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeremyTrump: Set own game mode to Creative Mode]
+[22Apr2020 18:35:25.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeremyTrump: Gave 1 [Repeating Command Block] to JeremyTrump]
+[22Apr2020 18:35:55.891] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: JeremyTrump lost connection: Disconnected
+[22Apr2020 18:35:55.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeremyTrump left the game
+[22Apr2020 18:36:00.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown command
+[22Apr2020 18:36:00.338] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: STOP<--[HERE]
+[22Apr2020 18:36:02.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[22Apr2020 18:36:02.934] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Unregistering com.sk89q.worldedit.forge.ForgePlatform from WorldEdit
+[22Apr2020 18:36:02.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Apr2020 18:36:02.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Apr2020 18:36:02.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Apr2020 18:36:02.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'world'/minecraft:overworld
+[22Apr2020 18:36:03.285] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Apr2020 18:36:03.298] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved

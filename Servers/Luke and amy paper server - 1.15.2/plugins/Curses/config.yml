@@ -1,0 +1,247 @@
+remove_curses_when_leave: true
+new_version_reminder: true
+Curses:
+  MilkToLava:
+    id: MILK_BUCKET
+    name: '&c&lMilk To Lava'
+    lore:
+    - '&7When you milk a cow you receive'
+    - '&7a lava bucket.'
+    - ''
+    - '&8Status: %status%'
+    slot: 0
+    enabled: true
+  AlwaysDiamonds:
+    id: DIAMOND
+    name: '&c&lAlways Diamonds'
+    lore:
+    - '&7Breaking diamond ore in any way will'
+    - '&7always give you a diamond.'
+    - ''
+    - '&8Status: %status%'
+    slot: 1
+    enabled: true
+  BlockDisappear:
+    id: COBBLESTONE
+    name: '&c&lBlock Disappear'
+    lore:
+    - '&7Placed blocks will disappear after a'
+    - '&7period of time.'
+    - ''
+    - '&8Status: %status%'
+    slot: 2
+    enabled: true
+  ChatSpam:
+    id: PAPER
+    name: '&c&lChat Spam'
+    lore:
+    - '&7The chat will be spammed constantly.'
+    - ''
+    - '&8Status: %status%'
+    slot: 3
+    enabled: true
+    messages:
+    - '&6Hello there!'
+    - '&7Why can''t the Ender Dragon read a book? &9Because he always starts at the
+      End.'
+    - '&2Hola crack'
+    - '&8HALLO'
+    - '&3welcome to my mincraf serber'
+  SurpriseChest:
+    id: CHEST
+    name: '&c&lSurprise Chest'
+    lore:
+    - '&7When you place a chest, it will explode.'
+    - ''
+    - '&8Status: %status%'
+    slot: 4
+    enabled: true
+  Aquaphobia:
+    id: WATER_BUCKET
+    name: '&c&lAquaphobia'
+    lore:
+    - '&7You will take damage when touching water.'
+    - ''
+    - '&8Status: %status%'
+    slot: 5
+    enabled: true
+    global_curse: false
+  OreTroll:
+    id: IRON_ORE
+    name: '&c&lOre Troll'
+    lore:
+    - '&7Ores will be replaced with Stone when'
+    - '&7they are broken.'
+    - ''
+    - '&8Status: %status%'
+    slot: 6
+    enabled: true
+  ColoredWools:
+    id: LIME_WOOL
+    name: '&c&lColored Wools'
+    lore:
+    - '&7Shearing sheeps will give you random'
+    - '&7colored wool.'
+    - ''
+    - '&8Status: %status%'
+    slot: 7
+    enabled: true
+  NoDamage:
+    id: STONE_SWORD
+    name: '&c&lNo Damage'
+    lore:
+    - '&7Your damage will be reduced by 90%.'
+    - ''
+    - '&8Status: %status%'
+    slot: 8
+    enabled: true
+  ExtremeFall:
+    id: LEATHER_BOOTS
+    name: '&c&lExtreme Fall'
+    lore:
+    - '&7Fall damage will kill you instantaneously.'
+    - ''
+    - '&8Status: %status%'
+    slot: 9
+    enabled: true
+  RandomBlocks:
+    id: SPONGE
+    name: '&c&lRandom Blocks'
+    lore:
+    - '&7Placed blocks will turn into another one.'
+    - ''
+    - '&8Status: %status%'
+    slot: 10
+    enabled: true
+  RottenFleshPoison:
+    id: ROTTEN_FLESH
+    name: '&c&lRotten Flesh Poison'
+    lore:
+    - '&7Eating rotten flesh will move your player'
+    - '&7randomly in every direction.'
+    - ''
+    - '&8Status: %status%'
+    slot: 11
+    enabled: true
+  InstaBreak:
+    id: IRON_AXE
+    name: '&c&lInsta Break'
+    lore:
+    - '&7Tools will break after 1 use.'
+    - ''
+    - '&8Status: %status%'
+    slot: 12
+    enabled: true
+  Villagegg:
+    id: EGG
+    name: '&c&lVillagegg'
+    lore:
+    - '&7Throwing eggs will spawn villagers instead'
+    - '&7of chickens.'
+    - ''
+    - '&8Status: %status%'
+    slot: 13
+    enabled: true
+  EternalSlow:
+    id: GLOWSTONE_DUST
+    name: '&c&lEternal Slow'
+    lore:
+    - '&7You will be cursed with slowness for a long,'
+    - '&7long time.'
+    - ''
+    - '&8Status: %status%'
+    slot: 14
+    enabled: true
+  FakeKickMessage:
+    id: BARRIER
+    name: '&c&lFake Kick Message'
+    lore:
+    - '&7The player will be kicked from the server'
+    - '&7showing a mysterious message.'
+    - ''
+    - '&8Instant Curse'
+    slot: 36
+    enabled: true
+    message: 'io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection
+      timed out: no further information:'
+  CreeperStalker:
+    id: CREEPER_HEAD
+    name: '&c&lCreeper Stalker'
+    lore:
+    - '&7A creeper will be spawned near the player.'
+    - ''
+    - '&8Instant Curse'
+    slot: 37
+    enabled: true
+    max_radius: 8
+  BedGlitch:
+    id: RED_BED
+    name: '&c&lBed Glitch'
+    lore:
+    - '&7Leaving a bed will teleport you %blocks% blocks up.'
+    - ''
+    - '&8Status: %status%'
+    slot: 15
+    enabled: true
+    blocks: 20
+  EverythingRandom:
+    id: JUNGLE_LOG
+    name: '&c&lEverything Random'
+    lore:
+    - '&7Breaking blocks will drop random items.'
+    - ''
+    - '&8Status: %status%'
+    slot: 16
+    enabled: true
+  Multiplicator:
+    id: ZOMBIE_HEAD
+    name: '&c&lMultiplicator'
+    lore:
+    - '&7Killing monsters or animals will spawn 2'
+    - '&7more in the same location.'
+    - ''
+    - '&8Status: %status%'
+    slot: 17
+    enabled: true
+  SpecialGift:
+    id: PLAYER_HEAD
+    skull-id: c4f03c0b-0fd5-4472-adeb-b0833856e8be
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWI2NzMwZGU3ZTViOTQxZWZjNmU4Y2JhZjU3NTVmOTQyMWEyMGRlODcxNzU5NjgyY2Q4ODhjYzRhODEyODIifX19
+    name: '&c&lSpecial Gift'
+    lore:
+    - '&7Every %time% seconds you will receive a'
+    - '&7random item.'
+    - ''
+    - '&8Status: %status%'
+    slot: 18
+    enabled: true
+    time: 30
+  NoInventories:
+    id: CRAFTING_TABLE
+    name: '&c&lNo Inventories'
+    lore:
+    - '&7Inventories will close instantaneously.'
+    - ''
+    - '&8Status: %status%'
+    slot: 19
+    enabled: true
+  SneakingNightmare:
+    id: DIRT
+    name: '&c&lSneaking Nightmare'
+    lore:
+    - '&7Sneaking will remove the block below you.'
+    - ''
+    - '&8Status: %status%'
+    slot: 20
+    enabled: true
+  SwapNearby:
+    id: COMPASS
+    name: '&c&lSwap Nearby'
+    lore:
+    - '&7Every %time% seconds you will swap location'
+    - '&7with a nearby animal or mob.'
+    - ''
+    - '&8Status: %status%'
+    slot: 21
+    enabled: true
+    time: 30

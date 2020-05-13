@@ -1,0 +1,46 @@
+[15:11:26] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[15:11:26] [Server thread/INFO]: Loading properties
+[15:11:26] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[patched_1.15.2.jar:git-Paper-185]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.15.2.jar:git-Paper-185]
+	at net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:90) ~[patched_1.15.2.jar:git-Paper-185]
+	Suppressed: java.io.IOException: The handle is invalid
+		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
+		at java.io.FileDescriptor.close(FileDescriptor.java:297) ~[?:?]
+		at java.io.FileInputStream$1.close(FileInputStream.java:375) ~[?:?]
+		at java.io.FileDescriptor.closeAll(FileDescriptor.java:355) ~[?:?]
+		at java.io.FileInputStream.close(FileInputStream.java:373) ~[?:?]
+		at java.io.BufferedInputStream.close(BufferedInputStream.java:489) ~[?:?]
+		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:378) ~[?:?]
+		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:193) ~[?:?]
+		at java.io.InputStreamReader.close(InputStreamReader.java:200) ~[?:?]
+		at java.io.BufferedReader.close(BufferedReader.java:528) ~[?:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[patched_1.15.2.jar:git-Paper-185]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.15.2.jar:git-Paper-185]
+		at net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:90) ~[patched_1.15.2.jar:git-Paper-185]
+[15:11:26] [Server thread/INFO]: This server is running Paper version git-Paper-185 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[15:11:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:11:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:11:26] [Server thread/INFO]: Debug logging is disabled
+[15:11:26] [Server thread/INFO]: Default game type: SURVIVAL
+[15:11:26] [Server thread/INFO]: Generating keypair
+[15:11:27] [Server thread/INFO]: Starting Minecraft server on *:25575
+[15:11:27] [Server thread/INFO]: Using default channel type
+[15:11:28] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[15:11:28] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[15:11:28] [Server thread/WARN]: Perhaps a server is already running on that port?
+[15:11:28] [Server thread/INFO]: Stopping server
+[15:11:28] [Server thread/INFO]: Saving players
+[15:11:28] [Server thread/INFO]: Saving worlds

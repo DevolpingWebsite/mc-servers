@@ -1,0 +1,17 @@
+game:
+  loadouts:
+    default: {}
+  reward-scheme: standard
+  rewards: {}
+  type: GLOBAL
+  flags: []
+  enabled: true
+  startpos:
+    '0':
+      x: -250.39166899213996
+      y: 70.0
+      z: 373.69999998807907
+      world: world
+      yaw: -25.046448
+      pitch: 24.682339
+  scoreboards: {}

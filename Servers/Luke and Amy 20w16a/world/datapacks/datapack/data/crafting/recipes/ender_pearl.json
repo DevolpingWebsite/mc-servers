@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "EBE",
+        "#E#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:emerald_block"
+        },
+        "E": {
+            "item": "minecraft:emerald"
+        },
+        "B": {
+            "item": "minecraft:black_stained_glass"
+        }
+    },
+    "result": {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+    }
+}

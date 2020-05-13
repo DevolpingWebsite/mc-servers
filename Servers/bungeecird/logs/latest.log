@@ -1,0 +1,55 @@
+[17:58:31] [main/INFO]: Using standard Java JCE cipher.
+[17:58:31] [main/INFO]: Using standard Java compressor.
+[17:58:31] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.15-SNAPSHOT:983fe27:344
+[17:58:31] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+[17:58:31] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+[17:58:31] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+[17:58:31] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+[17:58:31] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+[17:58:31] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+[17:58:32] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:983fe27:344 by WaterfallMC
+[17:58:32] [main/INFO]: Loaded plugin AdvancedPortals version 0.5.2 by sekwah41
+[17:58:32] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:983fe27:344 by WaterfallMC
+[17:58:32] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:983fe27:344 by WaterfallMC
+[17:58:32] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:983fe27:344 by WaterfallMC
+[17:58:32] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:983fe27:344 by WaterfallMC
+[17:58:32] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:983fe27:344 by WaterfallMC
+[17:58:32] [main/WARN]: Forced host server pvp is not defined
+[17:58:32] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.15-SNAPSHOT:983fe27:344 by WaterfallMC
+[17:58:32] [main/INFO] [AdvancedPortals]: Advanced portals have been successfully enabled!
+[17:58:32] [main/INFO]: Enabled plugin AdvancedPortals version 0.5.2 by sekwah41
+[17:58:32] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.15-SNAPSHOT:983fe27:344 by WaterfallMC
+[17:58:32] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.15-SNAPSHOT:983fe27:344 by WaterfallMC
+[17:58:32] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.15-SNAPSHOT:983fe27:344 by WaterfallMC
+[17:58:32] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.15-SNAPSHOT:983fe27:344 by WaterfallMC
+[17:58:32] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.15-SNAPSHOT:983fe27:344 by WaterfallMC
+[17:58:34] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
+[17:59:42] [Netty Worker IO Thread #0/WARN]: Event ConnectionInitEvent(remoteAddress=/172.23.208.1:59425, listener=ListenerInfo(socketAddress=/0.0.0.0:25577, motd=Another Bungee server, maxPlayers=1, tabListSize=60, serverPriority=[lobby], forceDefault=false, forcedHosts={pvp.md-5.net=pvp}, tabListType=GLOBAL_PING, setLocalAddress=true, pingPassthrough=false, queryPort=25577, queryEnabled=false, proxyProtocol=false), isCancelled=false) took 574ms to process!
+[17:59:42] [Netty Worker IO Thread #1/INFO]: [/172.23.208.1:59427] <-> InitialHandler has pinged
+[17:59:43] [Netty Worker IO Thread #2/INFO]: [/172.23.208.1:59432] <-> InitialHandler has pinged
+[17:59:44] [Netty Worker IO Thread #3/INFO]: [/172.23.208.1:59434] <-> InitialHandler has connected
+[17:59:48] [Netty Worker IO Thread #3/INFO]: [JeremyTrump] disconnected with: Could not connect to a default or fallback server, please try again later: io.netty.channel.AbstractChannel$AnnotatedConnectException
+[17:59:48] [Netty Worker IO Thread #3/INFO]: [/172.23.208.1:59434|JeremyTrump] -> UpstreamBridge has disconnected
+[18:00:24] [Netty Worker IO Thread #4/INFO]: [/172.23.208.1:59450] <-> InitialHandler has pinged
+[18:00:26] [Netty Worker IO Thread #5/INFO]: [/172.23.208.1:59454] <-> InitialHandler has connected
+[18:00:28] [Netty Worker IO Thread #5/INFO]: [JeremyTrump|/172.23.208.1:59454] <-> ServerConnector [lobby] has connected
+[18:00:29] [Netty Worker IO Thread #5/INFO]: [/172.23.208.1:59454|JeremyTrump] -> UpstreamBridge has disconnected
+[18:00:30] [Netty Worker IO Thread #6/INFO]: [/172.23.208.1:59457] <-> InitialHandler has connected
+[18:00:30] [Netty Worker IO Thread #6/INFO]: [/172.23.208.1:59457|JeremyTrump] -> UpstreamBridge has disconnected
+[18:00:32] [Netty Worker IO Thread #7/INFO]: [/172.23.208.1:59460] <-> InitialHandler has pinged
+[18:00:32] [Netty Worker IO Thread #6/INFO]: [JeremyTrump|/172.23.208.1:59457] <-> ServerConnector [lobby] has connected
+[18:00:32] [Netty Worker IO Thread #8/INFO]: [/172.23.208.1:59466] <-> InitialHandler has pinged
+[18:00:33] [Netty Worker IO Thread #9/INFO]: [/172.23.208.1:59469] <-> InitialHandler has pinged
+[18:00:33] [Netty Worker IO Thread #10/INFO]: [/172.23.208.1:59474] <-> InitialHandler has pinged
+[18:00:42] [Netty Worker IO Thread #5/WARN]: No client connected for pending server!
+[18:00:42] [Netty Worker IO Thread #5/INFO]: [JeremyTrump|/172.23.208.1:59454] <-> ServerConnector [lobby] has disconnected
+[18:00:43] [Netty Worker IO Thread #6/WARN]: No client connected for pending server!
+[18:00:43] [Netty Worker IO Thread #6/INFO]: [JeremyTrump|/172.23.208.1:59457] <-> ServerConnector [lobby] has disconnected
+[18:00:45] [Netty Worker IO Thread #11/INFO]: [/172.23.208.1:59482] <-> InitialHandler has pinged
+[18:00:49] [Netty Worker IO Thread #12/INFO]: [/172.23.208.1:59484] <-> InitialHandler has connected
+[18:00:51] [Netty Worker IO Thread #12/INFO]: [JeremyTrump|/172.23.208.1:59484] <-> ServerConnector [lobby] has connected
+[18:01:25] [Netty Worker IO Thread #12/INFO]: [JeremyTrump|/172.23.208.1:59484] <-> ServerConnector [minigames] has connected
+[18:01:26] [Netty Worker IO Thread #12/INFO]: [/172.23.208.1:59484|JeremyTrump] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:21:53] [Netty Worker IO Thread #12/INFO]: [/172.23.208.1:59484|JeremyTrump] -> UpstreamBridge has disconnected
+[18:21:53] [Netty Worker IO Thread #12/INFO]: [/172.23.208.1:59484|JeremyTrump] <-> DownstreamBridge <-> [minigames] has disconnected
+[18:21:53] [Netty Worker IO Thread #13/INFO]: [/172.23.208.1:59660] <-> InitialHandler has pinged
